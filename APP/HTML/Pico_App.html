@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- ICONS---->
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	
+	<!-- GOOGLE FONTS---->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,200;1,500&display=swap" rel="stylesheet">
+
+  	
+  	<!-- CSS -->
+    <link rel="stylesheet"href="/APP/CSS/Home_App.css">
+    <link rel="stylesheet" href="/APP/CSS/Carrinho_App.css">
+
+  	<title>Bazar dos Açores</title>
+
+
+</head>
+
+<body>
+
+	<!-- BARRA PROMOÇÃO-->
+	<div class="promotion">
+		<i class="fas fa-bolt"></i>
+		Envio Gratuito a partir dos 50€
+		<i class="fas fa-bolt"></i>
+	</div>
+	
+  <!-- BARRA DE MENU -->
+  <header id="header" class="header">
+    <div class="navigation">
+      <div class="container">
+        <nav class="nav">
+            
+
+            <!-- ICON DE HAMBURGER -->
+            <div class="nav__hamburger">
+                <i class="fas fa-bars hamburger"></i>
+            </div>
+
+            <!-- LOGO NA BARRA-->
+            <div class="nav__logo">
+                <a href="/" class="scroll-link">
+                    <img src="/images/logo_svg.svg" alt="logo" width="125px">
+                </a>
+            </div>
+
+            <div class="nav__menu">
+            
+                <div class="menu__top">
+                
+                    <!-- LOGO NA BARRA LATERAL-->
+                    <span class="nav__category"><img src="/images/logo_svg.svg" alt="logo" width="125px"></span>
+              
+                    <!-- ICON PARA ENCERRAR A BARRA LATERAL-->
+                    <a href="#" class="close__toggle closemenu">
+                        <i class="fas fa-times"></i>
+                    </a>
+                </div>
+            
+                <ul class="nav__list">
+                  <!-- ICON DE INICIO-->
+                  <li class="nav__item">
+                      <a href="/APP/HTML/Index_App.html">
+                          <i class="fas fa-home"></i>  Inicio</a>
+                  </li>
+                  <!-- ICON DE SERVIÇO-->
+                  <li class="nav__item">
+                      <a href="/APP/HTML/Servico_App.html">
+                          <i class="fas fa-gift"></i>   Serviços</a>
+                  </li>
+                  <!-- ICON DE PERFIL-->
+                  <li class="nav__item">
+                      <a href="/APP/HTML/Perfil_App.html">
+                          <i class="fas fa-user"></i>Perfil</a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="/APP/HTML/Index_App.html">
+                      <i class="fas fa-map-pin"></i>Terceira</a>
+                </li>
+                <li class="nav__item">
+                  <a href="/APP/HTML/Graciosa_App.html">
+                    <i class="fas fa-map-pin"></i>Graciosa</a>
+              </li>
+              <li class="nav__item">
+                <a href="/APP/HTML/SaoJorge_App.html">
+                  <i class="fas fa-map-pin"></i>Sao Jorge</a>
+            </li>
+            <li class="nav__item">
+              <a href="/APP/HTML/Pico_App.html">
+                <i class="fas fa-map-pin"></i>Pico</a>
+          </li>
+          <li class="nav__item">
+            <a href="/APP/HTML/Faial.html">
+              <i class="fas fa-map-pin"></i>Faial</a>
+        </li>
+        <li class="nav__item">
+          <a href="/APP/HTML/Oriente_App.html">
+            <i class="fas fa-map-pin"></i>Grupo Oriental</a>
+      </li>
+      <li class="nav__item">
+        <a href="/APP/HTML/Ocidente_App.html">
+          <i class="fas fa-map-pin"></i>Grupo Ocidental</a>
+    </li>
+              </ul>
+          </div>
+
+          <!-- ICON DE CARRINHO DE COMPRAS-->
+          
+          <div class="nav__icons">
+            <div class="login">
+              <a href="/APP/HTML/Registo_App.html">
+                <i class="fas fa-user-plus"></i>
+                login
+              </a>
+            </div>
+            
+            <div class="iconShopping">
+              <p>0</p>
+              <i class="fas fa-shopping-cart"></i>   
+            </a>
+            </div>
+          </div>
+      </nav>
+    </div>
+  </div>
+
+     <!-- CAROUSSEL -->
+     <div class="carrousel">
+	    <div id="slider">
+		    <figure>
+			    <img src="/images/Carrousel 2.jpg.png" alt="Serviços de Caixa">
+			    <img src="/images/Carrousel 1.png" alt="Açores">
+			    <img src="/images/Carrousel 4.png" alt="Serviços">
+			    <img src="/images/Carrousel 5.png" alt="Açores">
+			    <img src="/images/Carrousel 3.png" alt="Serviços de Postal">
+		    </figure>
+	    </div>
+	  </div>
+    <!-- FIM Caroussel-->
+  </header>
+
+    <div class="category__container" data-aos="fade-up" data-aos-duration="1200">
+      
+      
+      
+      <div class="category__center" id="Pico">
+          
+        <div class="product">
+          <!--IMAGEM-->
+          <div class="product__header">
+            <img class="image" src="/images/Produtos/Pico/1.png" alt="product">
+          </div>
+          <!--BOTÕES-->
+          <div class="btn">
+            <ul>
+              
+              <!--VISUALIZAR-->
+              <li><button class="ver"><i class="fas fa-eye"></i></button></li>
+              <!--FAVORITOS-->
+              <li><button class="fav"><i class="fas fa-heart"></i></button>
+              </li>
+              <!--ADICIONAR CARRINHO-->
+              <li><button class="carrinho"><i class="fas fa-cart-plus"></i></button></li>
+            </ul>
+          </div>
+          
+          <!--TITULO DO PRODUTO-->
+          <div class="product__footer">
+            <h3 class="nome">Vinho Lajido</h3>
+            <p class ="carateristica">Um descendente direto do famoso ” Verdelho” que levou o nome da ilha do Pico à s mais requintadas mesas da América e da Europa, até à corte dos Czares da Rússia Contém sulfitos Garrafa de 500 ml e Teor alcoólico de 17.5% Vol Produtor: Cooperativa Vitivinícola da ilha do Pico, C.R.L.</p>
+          
+          <!--PREÇO DO PRODUTO-->
+            <div class="product__price">
+              <h4><span class="preco">22.50</span>€</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <!--IMAGEM-->
+          <div class="product__header">
+            <img class="image" src="/images/Produtos/Pico/2.png" alt="product">
+          </div>
+          <!--BOTÕES-->
+          <div class="btn">
+            <ul>
+              
+              <!--VISUALIZAR-->
+              <li><button class="ver"><i class="fas fa-eye"></i></button></li>
+              <!--FAVORITOS-->
+              <li><button class="fav"><i class="fas fa-heart"></i></button>
+              </li>
+              <!--ADICIONAR CARRINHO-->
+              <li><button class="carrinho"><i class="fas fa-cart-plus"></i></button></li>
+            </ul>
+          </div>
+          
+          <!--TITULO DO PRODUTO-->
+          <div class="product__footer">
+            <h3 class="nome">Angelica do Pico</h3>
+            <p class ="carateristica">O termo “angelica” é um regionalismo que designa um tipo de vinho licoroso doce muito apreciado no arquipélago dos Açores e além mar. A Angelica é obtida através da utilização de mostos açucarados de vinhos portugueses e álcool, sendo posteriormente engarrafada segundo processos tradicionais, aperfeiçoados ao longo dos anos, após um estágio em carvalho português. A sua cor dourada de palha seca, sabor e aromas únicos fizeram da Angelica uma presença nas mesas dos grandes apreciadores de vinhos. Semelhante, em certa medida, à famosa Jeropiga de Portugal, a Angelica dos Açores era considerada uma “bebida dos Deuses”, por ser de tão particular produção e tão difícil de encontrar. Teor alcoólico: 20% Vol.</p>
+          
+          <!--PREÇO DO PRODUTO-->
+            <div class="product__price">
+              <h4><span class="preco">17.95</span>€</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <!--IMAGEM-->
+          <div class="product__header">
+            <img class="image" src="/images/Produtos/Pico/3.png" alt="product">
+          </div>
+          <!--BOTÕES-->
+          <div class="btn">
+            <ul>
+              
+              <!--VISUALIZAR-->
+              <li><button class="ver"><i class="fas fa-eye"></i></button></li>
+              <!--FAVORITOS-->
+              <li><button class="fav"><i class="fas fa-heart"></i></button>
+              </li>
+              <!--ADICIONAR CARRINHO-->
+              <li><button class="carrinho"><i class="fas fa-cart-plus"></i></button></li>
+            </ul>
+          </div>
+          
+          <!--TITULO DO PRODUTO-->
+          <div class="product__footer">
+            <h3 class="nome">Cerca dos Frades</h3>
+            <p class ="carateristica">A Cerca dos Frades Terrantez do Pico 2019.  Vinho Branco DOP Pico. Castas: Terrantez do Pico. Consumir à temperatura de 10 12ºC Contém Sulfitos Garrafa de 750ml com 12% Vol Produzido e Engarrafado por: Tito ´ s Uni. Lda. São Roque Pico Açores</p>
+          
+          <!--PREÇO DO PRODUTO-->
+            <div class="product__price">
+              <h4><span class="preco">27.50</span>€</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <!--IMAGEM-->
+          <div class="product__header">
+            <img class="image" src="/images/Produtos/Pico/4.png" alt="product">
+          </div>
+          <!--BOTÕES-->
+          <div class="btn">
+            <ul>
+              
+              <!--VISUALIZAR-->
+              <li><button class="ver"><i class="fas fa-eye"></i></button></li>
+              <!--FAVORITOS-->
+              <li><button class="fav"><i class="fas fa-heart"></i></button>
+              </li>
+              <!--ADICIONAR CARRINHO-->
+              <li><button class="carrinho"><i class="fas fa-cart-plus"></i></button></li>
+            </ul>
+          </div>
+          
+          <!--TITULO DO PRODUTO-->
+          <div class="product__footer">
+            <h3 class="nome">Licor de Nevêda</h3>
+            <p class ="carateristica">Licor de nêveda é produzido da planta com o mesmo nome, pertencente à família da menta, é uma planta silvestre da Região dos Açores. Este licor é produzido no Pico, sem corantes nem adubos químicos, envelhecido em cascos de carvalho segundo processos artesanais e tradicionais. Teor alcoólico: 32% Vol</p>
+          
+          <!--PREÇO DO PRODUTO-->
+            <div class="product__price">
+              <h4><span class="preco">11.75</span>€</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <!--IMAGEM-->
+          <div class="product__header">
+            <img class="image" src="/images/Produtos/Pico/5.png" alt="product">
+          </div>
+          <!--BOTÕES-->
+          <div class="btn">
+            <ul>
+              
+              <!--VISUALIZAR-->
+              <li><button class="ver"><i class="fas fa-eye"></i></button></li>
+              <!--FAVORITOS-->
+              <li><button class="fav"><i class="fas fa-heart"></i></button>
+              </li>
+              <!--ADICIONAR CARRINHO-->
+              <li><button class="carrinho"><i class="fas fa-cart-plus"></i></button></li>
+            </ul>
+          </div>
+          
+          <!--TITULO DO PRODUTO-->
+          <div class="product__footer">
+            <h3 class="nome">Vinho Frei Gigante</h3>
+            <p class ="carateristica">É um vinho Regional da ilha do Pico, Açores. De cor palha com laivos dourados, tem um aroma frutado ligeiramente tostado com tons a mel, sabor a frutos tropicais suportados pela vivacidade da acidez. Conjunto intenso com persistência equilibrada. Apreciar com pratos de peixe e carne, bem como queijos de pasta mole Contêm sulfitos Servir entre 8ºC a 10ºC Garrafa de 750 ml e Teor alcoólico de 13% Vol. Produtor Cooperativa Vitivinicola da ilha do Pico.</p>
+          
+          <!--PREÇO DO PRODUTO-->
+            <div class="product__price">
+              <h4><span class="preco">18.50</span>€</h4>
+            </div>
+          </div>
+        
+      </div>
+
+      <div class="product">
+        <!--IMAGEM-->
+        <div class="product__header">
+          <img class="image" src="/images/Produtos/Pico/6.png" alt="product">
+        </div>
+        <!--BOTÕES-->
+        <div class="btn">
+          <ul>
+            
+            <!--VISUALIZAR-->
+            <li><button class="ver"><i class="fas fa-eye"></i></button></li>
+            <!--FAVORITOS-->
+            <li><button class="fav"><i class="fas fa-heart"></i></button>
+            </li>
+            <!--ADICIONAR CARRINHO-->
+            <li><button class="carrinho"><i class="fas fa-cart-plus"></i></button></li>
+          </ul>
+        </div>
+        
+        <!--TITULO DO PRODUTO-->
+        <div class="product__footer">
+          <h3 class="nome">Terras de Lava</h3>
+          <p class ="carateristica">O Vinho Terra de Lava Merlot vinho de cor granada com nuances violáceas. Aroma vinoso intenso a frutos vermelhos maduros, com leves notas a chocolate. O vinho Terras de Lava merlot revela um sabor harmonioso. Os seus taninos suaves conferem lhe final de boca persistente. Nascido em solos de lava , ricos em nutrientes minerais , expressa de forma genuína ” terroir vulcãnico Apreciar a 18 20 C com pratos de peixes gordos, carnes vermelhas tal como caça e queijos. Abrir a garrafa com 5 10 minutos de antecedência Contém sulfitos. Garrafa de 750 ml e Teor alcoólico de 12,5% vol Produtor: CVIP, C.R.L</p>
+        
+        <!--PREÇO DO PRODUTO-->
+          <div class="product__price">
+            <h4><span class="preco">44.50</span>€</h4>
+          </div>
+        </div>
+    </div>
+
+    <div class="product">
+      <!--IMAGEM-->
+      <div class="product__header">
+        <img class="image" src="/images/Produtos/Pico/7.png" alt="product">
+      </div>
+      <!--BOTÕES-->
+      <div class="btn">
+        <ul>
+          
+          <!--VISUALIZAR-->
+          <li><button class="ver"><i class="fas fa-eye"></i></button></li>
+          <!--FAVORITOS-->
+          <li><button class="fav"><i class="fas fa-heart"></i></button>
+          </li>
+          <!--ADICIONAR CARRINHO-->
+          <li><button class="carrinho"><i class="fas fa-cart-plus"></i></button></li>
+        </ul>
+      </div>
+      
+      <!--TITULO DO PRODUTO-->
+      <div class="product__footer">
+        <h3 class="nome">Vinho Czar 2011</h3>
+        <p class ="carateristica">O vinho Czar 2011 é um vinho licoroso produzido na Ilha do Pico, Açores, a partir das castas tradicionais Verdelho, Arinto dos Açores e Terrantez do Pico , que crescem sobre a lava. Nas vinhas do Pico Património da Humanidade, elaborado pelo mesmo processo dos vinhos que chegaram á mesa do Papa, do rei, do Imperador, do Czar… Vinho de cor castanho dourado, grande complexidade aromática, volume gustativo acentuado, mercê do açúcar que contém e final de boca persistente. Deve servir se á temperatura de 12 a 14ºC, pode acompanhar entradas, sobremesas ou simplesmente beber se Contém sulfitos Garrafa de 750 ml e Teor alcoólico de 18.5% Vol Produtor: Fortunato Garcia.</p>
+      
+      <!--PREÇO DO PRODUTO-->
+        <div class="product__price">
+          <h4><span class="preco">18.50</span>€</h4>
+        </div>
+      </div>
+    
+  </div>
+
+  <div class="product">
+    <!--IMAGEM-->
+    <div class="product__header">
+      <img class="image" src="/images/Produtos/Pico/8.png" alt="product">
+    </div>
+    <!--BOTÕES-->
+    <div class="btn">
+      <ul>
+        
+        <!--VISUALIZAR-->
+        <li><button class="ver"><i class="fas fa-eye"></i></button></li>
+        <!--FAVORITOS-->
+        <li><button class="fav"><i class="fas fa-heart"></i></button>
+        </li>
+        <!--ADICIONAR CARRINHO-->
+        <li><button class="carrinho"><i class="fas fa-cart-plus"></i></button></li>
+      </ul>
+    </div>
+    
+    <!--TITULO DO PRODUTO-->
+    <div class="product__footer">
+      <h3 class="nome">Queijo Alfredo</h3>
+      <p class ="carateristica">Queijo produzido artesanalmente na ilha do Pico, Açores. Queijo curado, de pasta mole, cremosa (amanteigada). Sabor suave e gostoso Ingredientes: leite cru de vaca, coalho e sal. Conservar entre 0ºC 10ºC. Matéria Gorda no extrato seco de 45% 60. Produtor Queijaria Alfredo. José Pereira & Ascenção Pereira, Lda</p>
+    
+    <!--PREÇO DO PRODUTO-->
+      <div class="product__price">
+        <h4><span class="preco">13.50</span>€</h4>
+      </div>
+    </div>
+  
+</div>
+<div class="product">
+  <!--IMAGEM-->
+  <div class="product__header">
+    <img class="image" src="/images/Produtos/Pico/9.png" alt="product">
+  </div>
+  <!--BOTÕES-->
+  <div class="btn">
+    <ul>
+      
+      <!--VISUALIZAR-->
+      <li><button class="ver"><i class="fas fa-eye"></i></button></li>
+      <!--FAVORITOS-->
+      <li><button class="fav"><i class="fas fa-heart"></i></button>
+      </li>
+      <!--ADICIONAR CARRINHO-->
+      <li><button class="carrinho"><i class="fas fa-cart-plus"></i></button></li>
+    </ul>
+  </div>
+  
+  <!--TITULO DO PRODUTO-->
+  <div class="product__footer">
+    <h3 class="nome">Queijo São João</h3>
+    <p class ="carateristica">Queijo produzido na ilha do Pico, Açores. Queijo curado, de pasta mole, cremosa (amanteigada). Sabor suave e gostoso Ingredientes: leite pasteurizado de vaca, culturas lácteas, coalho, cloreto de cálcio e sal. Conservar entre 0ºC 10ºC. Matéria Gorda no extrato seco de 45% 60 Produtor Queijaria do Pico, Lda. Fábrica de São João Lajes do Pico.</p>
+  
+  <!--PREÇO DO PRODUTO-->
+    <div class="product__price">
+      <h4><span class="preco">12.00</span>€</h4>
+    </div>
+  </div>
+
+</div>
+
+<div class="product">
+  <!--IMAGEM-->
+  <div class="product__header">
+    <img class="image" src="/images/Produtos/Pico/10.png" alt="product">
+  </div>
+  <!--BOTÕES-->
+  <div class="btn">
+    <ul>
+      
+      <!--VISUALIZAR-->
+      <li><button class="ver"><i class="fas fa-eye"></i></button></li>
+      <!--FAVORITOS-->
+      <li><button class="fav"><i class="fas fa-heart"></i></button>
+      </li>
+      <!--ADICIONAR CARRINHO-->
+      <li><button class="carrinho"><i class="fas fa-cart-plus"></i></button></li>
+    </ul>
+  </div>
+  
+  <!--TITULO DO PRODUTO-->
+  <div class="product__footer">
+    <h3 class="nome">"Queijo Império</h3>
+    <p class ="carateristica">Queijo produzido na ilha do Pico, Açores. Queijo curado, de pasta mole, cremosa (amanteigada). Sabor suave e gostoso Ingredientes: leite pasteurizado de vaca, culturas lácteas, coalho, cloreto de cálcio e sal. Conservar entre 0ºC 10ºC. Matéria Gorda no extrato seco de 45% 60%. Produtor: Queijaria do Pico, Lda. Fábrica de São João Lajes do Pico.</p>
+  
+  <!--PREÇO DO PRODUTO-->
+    <div class="product__price">
+      <h4><span class="preco">11.50</span>€</h4>
+    </div>
+  </div>
+
+</div>
+
+<div class="product">
+  <!--IMAGEM-->
+  <div class="product__header">
+    <img class="image" src="/images/Produtos/Pico/11.png" alt="product">
+  </div>
+  <!--BOTÕES-->
+  <div class="btn">
+    <ul>
+      
+      <!--VISUALIZAR-->
+      <li><button class="ver"><i class="fas fa-eye"></i></button></li>
+      <!--FAVORITOS-->
+      <li><button class="fav"><i class="fas fa-heart"></i></button>
+      </li>
+      <!--ADICIONAR CARRINHO-->
+      <li><button class="carrinho"><i class="fas fa-cart-plus"></i></button></li>
+    </ul>
+  </div>
+  
+  <!--TITULO DO PRODUTO-->
+  <div class="product__footer">
+    <h3 class="nome">"Linguiça da Ilha</h3>
+    <p class ="carateristica">Linguiça Regional da ilha do Pico, Açores. Enchido de suíno condimentado com temperos da ilha do Pico, desatacando se a vinha d ´ alhos. Embalagem de 170g Produtor: Sicosta.</p>
+  
+  <!--PREÇO DO PRODUTO-->
+    <div class="product__price">
+      <h4><span class="preco">2.99</span>€</h4>
+    </div>
+  </div>
+
+</div>
+
+<div class="product">
+  <!--IMAGEM-->
+  <div class="product__header">
+    <img class="image" src="/images/Produtos/Pico/12.png" alt="product">
+  </div>
+  <!--BOTÕES-->
+  <div class="btn">
+    <ul>
+      
+      <!--VISUALIZAR-->
+      <li><button class="ver"><i class="fas fa-eye"></i></button></li>
+      <!--FAVORITOS-->
+      <li><button class="fav"><i class="fas fa-heart"></i></button>
+      </li>
+      <!--ADICIONAR CARRINHO-->
+      <li><button class="carrinho"><i class="fas fa-cart-plus"></i></button></li>
+    </ul>
+  </div>
+  
+  <!--TITULO DO PRODUTO-->
+  <div class="product__footer">
+    <h3 class="nome">"Lapas Natural</h3>
+    <p class ="carateristica">Lapas em conserva com limão tangerino e açaflor. Produzido na ilha do Pico, Açores. Ingredientes Patella aspera , patella candei , azeite alentejano virgem extra, Citrus x limonia Osbeck e Carthomus tinctorius Peso Líquido 120g Produtor: Azorconha.</p>
+  
+  <!--PREÇO DO PRODUTO-->
+    <div class="product__price">
+      <h4><span class="preco">22.50</span>€</h4>
+    </div>
+  </div>
+
+</div>
+
+<div class="product">
+  <!--IMAGEM-->
+  <div class="product__header">
+    <img class="image" src="/images/Produtos/Pico/13.png" alt="product">
+  </div>
+  <!--BOTÕES-->
+  <div class="btn">
+    <ul>
+      
+      <!--VISUALIZAR-->
+      <li><button class="ver"><i class="fas fa-eye"></i></button></li>
+      <!--FAVORITOS-->
+      <li><button class="fav"><i class="fas fa-heart"></i></button>
+      </li>
+      <!--ADICIONAR CARRINHO-->
+      <li><button class="carrinho"><i class="fas fa-cart-plus"></i></button></li>
+    </ul>
+  </div>
+  
+  <!--TITULO DO PRODUTO-->
+  <div class="product__footer">
+    <h3 class="nome">"Lula em Cerveja</h3>
+    <p class ="carateristica">Produzido na ilha do Pico, Açores. Ingredientes Loligo forbesi , cerveja dos Açores , azeite virgem extra de Rodão, Laurus nobilis , pétalas de açaflor , alho, aipo e sal Peso Líquido 120g Produtor: Azorconcha</p>
+  
+  <!--PREÇO DO PRODUTO-->
+    <div class="product__price">
+      <h4><span class="preco">7.75</span>€</h4>
+    </div>
+  </div>
+
+</div>
+
+<div class="product">
+  <!--IMAGEM-->
+  <div class="product__header">
+    <img class="image" src="/images/Produtos/Pico/14.png" alt="product">
+  </div>
+  <!--BOTÕES-->
+  <div class="btn">
+    <ul>
+      
+      <!--VISUALIZAR-->
+      <li><button class="ver"><i class="fas fa-eye"></i></button></li>
+      <!--FAVORITOS-->
+      <li><button class="fav"><i class="fas fa-heart"></i></button>
+      </li>
+      <!--ADICIONAR CARRINHO-->
+      <li><button class="carrinho"><i class="fas fa-cart-plus"></i></button></li>
+    </ul>
+  </div>
+  
+  <!--TITULO DO PRODUTO-->
+  <div class="product__footer">
+    <h3 class="nome">"Lapa Conserva</h3>
+    <p class ="carateristica">Lapas em conserva ao natural. Produzido na ilha do Pico, Açores Peso Líquido 120g Produtor: Azorconha</p>
+  
+  <!--PREÇO DO PRODUTO-->
+    <div class="product__price">
+      <h4><span class="preco">22.50</span>€</h4>
+    </div>
+  </div>
+
+</div>
+
+<div class="product">
+  <!--IMAGEM-->
+  <div class="product__header">
+    <img class="image" src="/images/Produtos/Pico/15.png" alt="product">
+  </div>
+  <!--BOTÕES-->
+  <div class="btn">
+    <ul>
+      
+      <!--VISUALIZAR-->
+      <li><button class="ver"><i class="fas fa-eye"></i></button></li>
+      <!--FAVORITOS-->
+      <li><button class="fav"><i class="fas fa-heart"></i></button>
+      </li>
+      <!--ADICIONAR CARRINHO-->
+      <li><button class="carrinho"><i class="fas fa-cart-plus"></i></button></li>
+    </ul>
+  </div>
+  
+  <!--TITULO DO PRODUTO-->
+  <div class="product__footer">
+    <h3 class="nome">Manteiga Rainha</h3>
+    <p class ="carateristica">Manteiga Rainha do Pico manteiga com sal, artesanalmente produzida na ilha do Pico, Açores. Ingredientes Nata pasteurizada e sal Produtor: Cooperativa Leite Montanha, C.R. L</p>
+  
+  <!--PREÇO DO PRODUTO-->
+    <div class="product__price">
+      <h4><span class="preco">3.79</span>€</h4>
+    </div>
+  </div>
+
+</div>
+
+</div>
+</div>
+      
+</div>
+</section>
+	 <!-- FIM PRODUTOS -->
+	
+	
+	<!-- DETALHE PRODUTOS -->
+
+  <div class="modal"></div>
+
+  <div class="modal__content">
+
+    <i class="modal__close far fa-times-circle"></i>
+
+    <div class="modal__left">
+      <img class="modal__img" src="" alt="Imagem do Produto">
+    </div>
+
+    <div class="modal__right">
+      <div class="detail">
+        <h2 class="detail__title"></h2>
+        <p class="detail__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, labore quaerat
+          magni ad dolores libero culpa ipsa fugit voluptates ipsam!</p>
+        <p class="detail__price"></p>
+        <input class="inputproduto" type="number" max=30 placeholder="stock: 30 itens">
+        <p class="detail__bagBtn">add to bag</p>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+	 <!--FIM DETALHE PRODUTOS -->
+	
+	<!--CARRINHO DE COMPRAS-->
+  <div class="cartBox">
+
+
+    <div class="carrobox">
+    <i class="fas fa-window-close fecharcarro"></i>
+
+		  <div class="cart">
+			  <h1>Carrinho de Compras</h1>
+			  <table class="tablecart"></table>
+       
+        <p class="Subtotalcarrinho">Subtotal: <span class="subtotal"></span></p>
+        <p class="Envio">Envio: <span class="envio1"></span></p>
+        <p class="TotalCarrinho">Total <span class="totalCarro"></span></p>
+		  </div>
+
+      <div class="forcompra">
+       <h1>Detalhe de Envio</h1>
+        
+        <div class="formCompra">
+        <label>Nome Completo*</label><small>Error</small>
+        <input class="nomecompleto" id="nomecompleto" type="text" placeholder="Coloque aqui o seu nome">
+        </div>
+
+        <div class="formCompra">
+        <label>Morada*</label><small>Error</small>
+        <input class="morada" id="morada1" type="text" placeholder="Coloque aqui a sua morada completa">
+        </div>
+
+        <div class="formCompra">
+        <label>Localidade*</label><small>Error</small><br>
+        <input class="loca1" id="loca1" type="number" placeholder="3000">-
+        <input class="loca1" id="loca2" type="number" placeholder="158">
+        <input class="loca3" id="loca3" type="text" placeholder="localidade">
+        </div>
+
+        <div class="formCompra">
+        <label>Contribuinte*</label><small>Error</small>
+        <input class="nif" id="contribuinte" type="number" placeholder="Colque aqui o seu número de contribuinte">
+        </div>
+
+        
+        <div class="formCompra">
+        <label>Telefone*</label><small>Error</small>
+        <input class="tel" id="tel" type="tel" placeholder="coloque aqui o seu contacto">
+        </div>
+
+        <div class="formCompra">
+        <label>Email*</label><small>Error</small>
+        <input class="mail" id="mailCompra" type="email" placeholder="Coloque aqui o seu email">
+        </div>
+        
+
+        <h1>Método de Pagamento</h1>
+
+        <div class="formCompra">
+        <label>Nome no Cartão Crédito*</label ><small>Error</small>
+        <input class="nc" id="nc" type="text" placeholder="Coloque aqui em que nome está no cartão">
+        </div>
+
+        <div class="formCompra">
+        <label>Número do Cartão Crédito*</label><small>Error</small>
+        <input class="noc" id="noc" type="number" placeholder="000350456789">
+        </div>
+
+        <div class="cartaodav">
+        <div class="formCompra">
+        <label>Data de validade*</label><small>Error</small> <br>
+        <input class="dv" id="dv" type="month" min="2021-06">
+        </div>
+
+        <div class="formCompra">
+        <label>CVV*</label><small>Error</small> <br>
+        <input class="cvv" id="cvv" type="number" placeholder="456">
+        </div>
+        </div>
+
+        <label>PAGAR POR:</label><br>
+        <button onclick="compraMbWay()" id="pgmbway"><img src="/images/mbway.png" width="20px"></button>
+        <button onclick="compraCC()" id="pgCC">PAGAR AGORA</button>
+        <button onclick="compraPayPal()" id="pgPayPal"><img src="/images/paypal.svg" width="20px"></button>
+        
+    </div>
+  </div>
+	</div>
+  <!--FIM CARRINHO DE COMPRAS-->
+  
+
+   <!--FOOTER --->
+
+	<footer id="footer" class="section footer">
+    <div class="container">
+      <div class="footer__top">
+		  <!--LINK EXTERNO --->
+        <div class="footer-top__box">
+			    <h3>Bazar dos Açores INFO </h3> 
+          <a href="/APP/HTML/SobreNos_App.html">Sobre Nós</a>
+        </div>
+
+         <!--SIMULAÇÃO REDES SOCIAIS --->
+         <div class="footer-top__box">
+          <h3>Encontre-nos em:</h3>
+				    <a href="#"><img src="/images/facebook.svg" width="20px" alt="facebook"></a>
+            <a href="#"><img src="/images/twitter.svg" width="20px" alt="twitter"></a>
+			      <a href="#"><img src="/images/instagram.svg" width="20px" alt="instagram"></a>
+			    </div>  	
+
+        <div class="footer-top__box">
+          <a id="ajuda" href="/APP/HTML/Ajuda_App.html">Ajuda e Suporte</a>
+			    <p>Devoluções</p>
+			    <p>Preço de Envio</p>
+			    <p>Como Pedir</p>
+			    <p>Como rastrear</p>
+        </div>
+
+        <!--TIPO DE PAGAMENTOS --->
+        <div class="footer-top__box">
+          <h3>Aceitamos:</h3>
+          <img src="/images/mbway.png" alt="mbway" width="20px">
+          <img src="/images/paypal.svg" alt="PayPal" width="20px">
+          <img src="/images/credit.svg" alt="Cartão Crédito" width="25px">
+
+		   
+			  <!--PARA SUBSCREVER AS NEWSLETTER --->
+		    <div class="footer-top__box"></div>
+          <p id="newsletter">Registe o seu email para receber as nossas novidades e promoções epeciais:</p>
+          <div>
+         	  <input type="email" placeholder="Coloque aqui o seu email">
+			      <a href="#" id="button">SUBSCREVER</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+		  
+    <div class="footer__bottom">
+      <div class="footer-bottom__box">
+      </div>
+      <div class="footer-bottom__box">
+      </div>
+    </div>
+
+  </footer>
+  <!-- FIM Footer -->
+	
+	
+	<!--ATALHO PARA CIMA-->
+	<a href="#header" class="goto-top scroll-link">
+    <i class="fas fa-chevron-up"></i>
+  </a>
+	<!--fim atalho cima-->
+	
+	
+	
+	<!--POP UP DE CONFIRMAÇÃO -->
+ 
+<div class="PopUpSub">
+  <div class="PopUpSubContent">
+    <i class="far fa-times-circle closesub"></i>
+    <h2> <i class="fas fa-hand-peace"></i>Agradecemos pela sua subscrição</h2>
+  </div>
+</div>
+	
+	
+<!--JAVASCRIPT-->
+  <script src="/JAVASCRIPT/home.js"></script>
+  <script src="/JAVASCRIPT/carrinho.js"></script>
+

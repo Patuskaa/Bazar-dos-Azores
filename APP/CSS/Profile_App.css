@@ -1,0 +1,394 @@
+
+
+.main-bd{
+    width: 100%;
+    display: flex;
+    padding-right: 15px;
+}
+
+.profile-header{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    position: relative;
+}
+
+.profile-img{
+    float:left;
+}
+
+.profile-img img{
+    position: flex;
+    left: 10px;
+    height: 100px;
+    width: 100px;
+    top: 20px;
+    z-index: 1;
+}
+
+#fileButton{
+    font-size: 1rem;
+    display: flex;
+    margin-left: 2rem;
+    font-weight: bold;
+    opacity: 0.5;
+}
+
+#fileButton:hover{
+    opacity: 1;
+}
+
+#fileButton i{
+    margin-right: 1rem;
+    margin-top: 3px;
+}
+
+.profile-side{
+    margin-top: 45%;
+    margin-bottom: 15%;
+    width: 100px;
+    height: 450px;
+    padding: 10px 10px 10px;
+    margin-left: 10px;
+    background-color: lightgray;
+}
+
+
+.profile-side h3{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+.profile-side p{
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    color: grey;
+}
+
+.profile-side p i{
+    padding-right: 1rem;
+}
+
+.navprofile{
+    margin-top: 2%;
+    width: 60%;
+    z-index: -1;
+    font-size: 1.1rem;
+}
+
+
+.navprofile ul{
+    
+    margin-top: 3rem;
+    display: flex;
+    list-style-type: none;
+    height: 50px;
+}
+
+.navprofile ul li a{
+    color: grey;
+    width: 20%;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.navprofile ul li a.active , 
+.navprofile ul li a:hover {
+    color: black;
+    font-weight: bold;
+    box-shadow: 0px -3px 0px black inset;
+}
+
+.profile-body{
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 50%;
+    z-index: -1;
+}
+
+
+.profileform label{
+    font-size: 1.2rem;
+    text-align: left;
+    margin-right: 15rem;
+    color: grey;
+}
+
+.profileform input{
+    margin-right: 1rem;
+    padding: 1px 3px;
+    border:none;
+    border-radius: 15px;
+    background-color: #f0f0f0;
+    color: black;
+}
+
+.profileform #nomeprofile{
+    display: inline;
+    margin-top: 1rem;
+    width: 190px;
+}
+
+.profileform #apelidoprofile{
+    width: 190px;
+}
+
+.profileform2 label{
+    font-size: 1.2rem;
+    color: grey;
+}
+
+.profileform2 input{
+    margin-right: 3rem;
+    padding: 2px 5px;
+    border:none;
+    border-radius: 15px;
+    background-color: #f0f0f0;
+    color: black;
+}
+
+.profileform2 #date{
+    width: 190px;
+    height: 30px;
+    margin-top: 1rem;
+    font-size: 12px;
+    text-align: center;
+}
+
+  .dateform label{
+    margin-right: 7rem;
+}
+
+.generorprofile{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+    width: 50%;
+    font-size: 1rem
+}
+
+
+.generorprofile i{
+    color: grey;
+    padding-right: 10px;
+}
+
+.profileform2{
+    display: flex;
+    flex-direction: column;
+}
+
+.profileform2 #moradaprofile{
+    margin-right: 7rem;
+    width: 190px;
+    margin-top: 1rem;
+}
+
+.localidadeprofile2 {
+    display: inline;
+    margin-right: 4rem;
+    margin-top: 2rem;
+}
+
+.moradapform{
+    margin-right: 15rem;
+    margin-top: 2rem;
+}
+
+.localidadeprofile2 label {
+    margin-right: 9rem;
+}
+
+.localidadeprofile2 #loc1profile, #loc2profile {
+    width: 65px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+
+.localidadeprofile2 #localidadeprofile{
+    display: inline;
+    width: 190px;
+    margin-top: 1rem;
+}
+
+#btnremove{
+    background-color: transparent;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#btnremove:hover{
+    color: grey;
+}
+
+.nifform label{
+    margin-right: 8rem;
+}
+#nifprofile{
+    margin-top: 1rem;
+    width: 190px;
+}
+
+.emailform{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.emailform label{
+    margin-right: 11rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.emailform #mail2profile, #mailprofile{
+    width: 190px;
+}
+
+.telform{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.telform label{
+    margin-right: 15rem;
+}
+.telform #telefoneprofile, #tel2profile{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    width: 190px;
+}
+
+.passform label{
+    margin-right: 15rem;
+}
+.passform{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.passform #passprofile, #passprofile2{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    width: 190px;
+}
+
+#btnremove{
+    display: flex;
+}
+
+#Change{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 190px;
+    padding: 1rem;
+    border: none;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+   
+}
+
+#Change:hover{
+    background-color: grey;
+    cursor: pointer;
+    
+}
+
+
+.tab{
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+}
+
+.tab input{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: grey;
+}
+
+
+
+.PopUpVer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.75);
+    transition: all 250ms ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .show{
+      
+    visibility: visible;
+    opacity: 1;
+    z-index: 1;
+  }
+
+  .PopUpVerContent {
+    position:fixed;
+    justify-content: center;
+    align-content: center;
+    width: 960px;
+    height: 340px;
+    max-height: 240px;
+    max-width: 960px;
+    top: 50%;
+    left: 20%;
+    background-color: white;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-100px);
+    transition: all 250ms ease-in-out;
+  }
+
+  .showContent {
+    transform: translateY(0);
+    visibility: visible;
+    opacity: 1;
+    z-index: 2;
+    }
+  
+
+    .PopUpVerContent h2 {
+    margin-top: 8rem;
+    text-align: center;
+  }
+
+  .closesub {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    color: black;
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+    z-index: 3;
+  }
+
+  .closesub:hover{
+    color:grey;
+  }
+  
+  

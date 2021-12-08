@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- ICONS---->
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	
+	<!-- GOOGLE FONTS---->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,200;1,500&display=swap" rel="stylesheet">
+
+  	
+  	<!-- CSS -->
+    <link rel="stylesheet"href="/APP/CSS/Home_App.css">
+    <link rel="stylesheet" href="/APP/CSS/Carrinho_App.css">
+
+  	<title>Bazar dos Açores</title>
+
+
+</head>
+
+<body>
+
+	<!-- BARRA PROMOÇÃO-->
+	<div class="promotion">
+		<i class="fas fa-bolt"></i>
+		Envio Gratuito a partir dos 50€
+		<i class="fas fa-bolt"></i>
+	</div>
+	
+  <!-- BARRA DE MENU -->
+  <header id="header" class="header">
+    <div class="navigation">
+      <div class="container">
+        <nav class="nav">
+            
+
+            <!-- ICON DE HAMBURGER -->
+            <div class="nav__hamburger">
+                <i class="fas fa-bars hamburger"></i>
+            </div>
+
+            <!-- LOGO NA BARRA-->
+            <div class="nav__logo">
+                <a href="/" class="scroll-link">
+                    <img src="/images/logo_svg.svg" alt="logo" width="125px">
+                </a>
+            </div>
+
+            <div class="nav__menu">
+            
+                <div class="menu__top">
+                
+                    <!-- LOGO NA BARRA LATERAL-->
+                    <span class="nav__category"><img src="/images/logo_svg.svg" alt="logo" width="125px"></span>
+              
+                    <!-- ICON PARA ENCERRAR A BARRA LATERAL-->
+                    <a href="#" class="close__toggle closemenu">
+                        <i class="fas fa-times"></i>
+                    </a>
+                </div>
+            
+                <ul class="nav__list">
+                  <!-- ICON DE INICIO-->
+                  <li class="nav__item">
+                      <a href="/APP/HTML/Index_App.html">
+                          <i class="fas fa-home"></i>  Inicio</a>
+                  </li>
+                  <!-- ICON DE SERVIÇO-->
+                  <li class="nav__item">
+                      <a href="/APP/HTML/Servico_App.html">
+                          <i class="fas fa-gift"></i>   Serviços</a>
+                  </li>
+                  <!-- ICON DE PERFIL-->
+                  <li class="nav__item">
+                      <a href="/APP/HTML/Perfil_App.html">
+                          <i class="fas fa-user"></i>Perfil</a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="/APP/HTML/Index_App.html">
+                      <i class="fas fa-map-pin"></i>Terceira</a>
+                </li>
+                <li class="nav__item">
+                  <a href="/APP/HTML/Graciosa_App.html">
+                    <i class="fas fa-map-pin"></i>Graciosa</a>
+              </li>
+              <li class="nav__item">
+                <a href="/APP/HTML/SaoJorge_App.html">
+                  <i class="fas fa-map-pin"></i>Sao Jorge</a>
+            </li>
+            <li class="nav__item">
+              <a href="/APP/HTML/Pico_App.html">
+                <i class="fas fa-map-pin"></i>Pico</a>
+          </li>
+          <li class="nav__item">
+            <a href="/APP/HTML/Faial.html">
+              <i class="fas fa-map-pin"></i>Faial</a>
+        </li>
+        <li class="nav__item">
+          <a href="/APP/HTML/Oriente_App.html">
+            <i class="fas fa-map-pin"></i>Grupo Oriental</a>
+      </li>
+      <li class="nav__item">
+        <a href="/APP/HTML/Ocidente_App.html">
+          <i class="fas fa-map-pin"></i>Grupo Ocidental</a>
+    </li>
+              </ul>
+          </div>
+
+          <!-- ICON DE CARRINHO DE COMPRAS-->
+          
+          <div class="nav__icons">
+            <div class="login">
+              <a href="/APP/HTML/Registo_App.html">
+                <i class="fas fa-user-plus"></i>
+                login
+              </a>
+            </div>
+            
+            <div class="iconShopping">
+              <p>0</p>
+              <i class="fas fa-shopping-cart"></i>   
+            </a>
+            </div>
+          </div>
+      </nav>
+    </div>
+  </div>
+
+     <!-- CAROUSSEL -->
+     <div class="carrousel">
+	    <div id="slider">
+		    <figure>
+			    <img src="/images/Carrousel 2.jpg.png" alt="Serviços de Caixa">
+			    <img src="/images/Carrousel 1.png" alt="Açores">
+			    <img src="/images/Carrousel 4.png" alt="Serviços">
+			    <img src="/images/Carrousel 5.png" alt="Açores">
+			    <img src="/images/Carrousel 3.png" alt="Serviços de Postal">
+		    </figure>
+	    </div>
+	  </div>
+    <!-- FIM Caroussel-->
+  </header>
+
+    <div class="category__container" data-aos="fade-up" data-aos-duration="1200">
+      
+      
+      
+      <div class="category__center" id="Grupo Ocidental">
+          
+          <div class="product">
+          <!--IMAGEM-->
+          <div class="product__header">
+            <img class="image" src="/images/Produtos/Ocidental//1.png" alt="product">
+          </div>
+          <!--BOTÕES-->
+          <div class="btn">
+            <ul>
+              
+              <!--VISUALIZAR-->
+              <li><button class="ver"><i class="fas fa-eye"></i></button></li>
+              <!--FAVORITOS-->
+              <li><button class="fav"><i class="fas fa-heart"></i></button>
+              </li>
+              <!--ADICIONAR CARRINHO-->
+              <li><button class="carrinho"><i class="fas fa-cart-plus"></i></button></li>
+            </ul>
+          </div>
+          
+          <!--TITULO DO PRODUTO-->
+          <div class="product__footer">
+            <h3 class="nome">Biscoito de Canela</h3>
+            <p class ="carateristica">Biscoitos de Canela Megasil , produzidos de forma artesanal em São Miguel Açores. São uma verdadeira tentação, bastante estaladiços Ingredientes: Farinha de Trigo, açúcar, gordura vegetal, gordura animal, leite, ovos, sal canela (0.8%), fermento.</p>
+          
+          <!--PREÇO DO PRODUTO-->
+            <div class="product__price">
+              <h4><span class="preco">3.99</span>€</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <!--IMAGEM-->
+          <div class="product__header">
+            <img class="image" src="/images/Produtos/Ocidental/2.png" alt="product">
+          </div>
+          <!--BOTÕES-->
+          <div class="btn">
+            <ul>
+              
+              <!--VISUALIZAR-->
+              <li><button class="ver"><i class="fas fa-eye"></i></button></li>
+              <!--FAVORITOS-->
+              <li><button class="fav"><i class="fas fa-heart"></i></button>
+              </li>
+              <!--ADICIONAR CARRINHO-->
+              <li><button class="carrinho"><i class="fas fa-cart-plus"></i></button></li>
+            </ul>
+          </div>
+          
+          <!--TITULO DO PRODUTO-->
+          <div class="product__footer">
+            <h3 class="nome">Bolos Lêvedos</h3>
+            <p class ="carateristica">Os bolos lêvedos são uma especialidade gastronómica típica da Ilha de São Miguel, Açores Ingredientes: Farinha de trigo (tipo 65), acúcar ovos, leite, manteiga de vaca (nata pasteurizada), sal e fermento. Atenção aos Alergénios: contém Glutén , Leite e Embalagem de 4 unidades. Peso líquido: 300g</p>
+          
+          <!--PREÇO DO PRODUTO-->
+            <div class="product__price">
+              <h4><span class="preco">3.99</span>€</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <!--IMAGEM-->
+          <div class="product__header">
+            <img class="image" src="/images/Produtos/Ocidental/3.png" alt="product">
+          </div>
+          <!--BOTÕES-->
+          <div class="btn">
+            <ul>
+              
+              <!--VISUALIZAR-->
+              <li><button class="ver"><i class="fas fa-eye"></i></button></li>
+              <!--FAVORITOS-->
+              <li><button class="fav"><i class="fas fa-heart"></i></button>
+              </li>
+              <!--ADICIONAR CARRINHO-->
+              <li><button class="carrinho"><i class="fas fa-cart-plus"></i></button></li>
+            </ul>
+          </div>
+          
+          <!--TITULO DO PRODUTO-->
+          <div class="product__footer">
+            <h3 class="nome">Caramelos das Furnas</h3>
+            <p class ="carateristica">Caramelos de morango, produzido à base de açúcar e leite de modo tradicional. Produzido nas Furnas, São Miguel, Açores.</p>
+          
+          <!--PREÇO DO PRODUTO-->
+            <div class="product__price">
+              <h4><span class="preco">3.25</span>€</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <!--IMAGEM-->
+          <div class="product__header">
+            <img class="image" src="/images/Produtos/Ocidental/4.png" alt="product">
+          </div>
+          <!--BOTÕES-->
+          <div class="btn">
+            <ul>
+              
+              <!--VISUALIZAR-->
+              <li><button class="ver"><i class="fas fa-eye"></i></button></li>
+              <!--FAVORITOS-->
+              <li><button class="fav"><i class="fas fa-heart"></i></button>
+              </li>
+              <!--ADICIONAR CARRINHO-->
+              <li><button class="carrinho"><i class="fas fa-cart-plus"></i></button></li>
+            </ul>
+          </div>
+          
+          <!--TITULO DO PRODUTO-->
+          <div class="product__footer">
+            <h3 class="nome">Azor Gin</h3>
+            <p class ="carateristica"> Gin produzido na ilha de São Miguel, pela empresa Drinks & Flavours Lda. O Azor Gin é destilado em Portugal continental com as melhores especiarias e produtos regionais do Arquipélago dos Açores. Um produto que pretende homenagear os Descobrimentos portugueses, em especial a descoberta do arquipélago açoriano. Simboliza uma importante época na História de Portugal. Garrafa de 700ml. Ingredientes: Álcool, destilado de botânicos e água. Teor alcoólico: 40% Vol.</p>
+          
+          <!--PREÇO DO PRODUTO-->
+            <div class="product__price">
+              <h4><span class="preco">50.75</span>€</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <!--IMAGEM-->
+          <div class="product__header">
+            <img class="image" src="/images/Produtos/Ocidental/5.png" alt="product">
+          </div>
+          <!--BOTÕES-->
+          <div class="btn">
+            <ul>
+              
+              <!--VISUALIZAR-->
+              <li><button class="ver"><i class="fas fa-eye"></i></button></li>
+              <!--FAVORITOS-->
+              <li><button class="fav"><i class="fas fa-heart"></i></button>
+              </li>
+              <!--ADICIONAR CARRINHO-->
+              <li><button class="carrinho"><i class="fas fa-cart-plus"></i></button></li>
+            </ul>
+          </div>
+          
+          <!--TITULO DO PRODUTO-->
+          <div class="product__footer">
+            <h3 class="nome">Bolacha Mulata</h3>
+            <p class ="carateristica">Deliciosa Bolacha Mulata dos Açores, produzida em São Miguel, Açores Ingredientes: Farinha de trigo , açúcar, gordura de palma, cacau em pó (4%), gordura suíno, leite em pó magro, mel, sal, creme de cacau açúcar,cacau em pó e corante (caramelo: E150b)), levedantes ( bicarbonato de amónio ( sulfitos )), aroma(vanilina) e antioxidante(ácido tartárico). Pode conter vestígios de ovo</p>
+          
+          <!--PREÇO DO PRODUTO-->
+            <div class="product__price">
+              <h4><span class="preco">3.99</span>€</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <!--IMAGEM-->
+          <div class="product__header">
+            <img class="image" src="/images/Produtos/Ocidental/6.png" alt="product">
+          </div>
+          <!--BOTÕES-->
+          <div class="btn">
+            <ul>
+              
+              <!--VISUALIZAR-->
+              <li><button class="ver"><i class="fas fa-eye"></i></button></li>
+              <!--FAVORITOS-->
+              <li><button class="fav"><i class="fas fa-heart"></i></button>
+              </li>
+              <!--ADICIONAR CARRINHO-->
+              <li><button class="carrinho"><i class="fas fa-cart-plus"></i></button onclick=></li>
+            </ul>
+          </div>
+          
+          <!--TITULO DO PRODUTO-->
+          <div class="product__footer">
+            <h3 class="nome">Queijadas de Vila Franca</h3>
+            <p class ="carateristica">Queijadas de Vila Franca do Campo do Morgado ou Queijadas da Vila do Morgado são as queijadas mais típicas da ilha de São Miguel, Açores. São uma autêntica iguaria micalense Ingredientes: leite ovos , açúcar, manteiga e farinha de trigo</p>
+          
+          <!--PREÇO DO PRODUTO-->
+            <div class="product__price">
+              <h4><span class="preco">7.99</span>€</h4>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="product">
+          <!--IMAGEM-->
+          <div class="product__header">
+            <img class="image" src="/images/Produtos/Ocidental/7.png" alt="product">
+          </div>
+          <!--BOTÕES-->
+          <div class="btn">
+            <ul>
+              
+              <!--VISUALIZAR-->
+              <li><button class="ver"><i class="fas fa-eye"></i></button></li>
+              <!--FAVORITOS-->
+              <li><button class="fav"><i class="fas fa-heart"></i></button>
+              </li>
+              <!--ADICIONAR CARRINHO-->
+              <li><button class="carrinho"><i class="fas fa-cart-plus"></i></button></li>
+            </ul>
+          </div>
+          
+          <!--TITULO DO PRODUTO-->
+          <div class="product__footer">
+            <h3 class="nome">Queijo Fresco</h3>
+            <p class ="carateristica">Queijo Fresco Para Barrar produzido na ilha de São Miguel Ingredientes: Leite de vaca pasteurizado,natas , sal, cloreto de cálcio,emulsionantes,conservante E200 fermento lácteo e coalho.</p>
+          
+          <!--PREÇO DO PRODUTO-->
+            <div class="product__price">
+              <h4><span class="preco">1.50</span>€</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <!--IMAGEM-->
+          <div class="product__header">
+            <img class="image" src="/images/Produtos/Terceira/8.png" alt="product">
+          </div>
+          <!--BOTÕES-->
+          <div class="btn">
+            <ul>
+              
+              <!--VISUALIZAR-->
+              <li><button class="ver"><i class="fas fa-eye"></i></button></li>
+              <!--FAVORITOS-->
+              <li><button class="fav"><i class="fas fa-heart"></i></button>
+              </li>
+              <!--ADICIONAR CARRINHO-->
+              <li><button class="carrinho"><i class="fas fa-cart-plus"></i></button></li>
+            </ul>
+          </div>
+          
+          <!--TITULO DO PRODUTO-->
+          <div class="product__footer">
+            <h3 class="nome">Queijo Nova Açores</h3>
+            <p class ="carateristica">Queijo alho e salsa produzido nos Açores. Ideal para petiscos e para uma excelente tábua de queijos Ingredientes: leite pasteurizado, sal (1.8%), alho(0.1%) (contém Sulfitos), salsa(0.2%), fermentos Lácteos, cloreto de cálcio, lisozima de ovo e coalho. Conservar entre 0ºC 10ºC. Queijo Curado com Matéria Gorda no extracto seco de 45% 60%.</p>
+          
+          <!--PREÇO DO PRODUTO-->
+            <div class="product__price">
+              <h4><span class="preco">9.50</span>€</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <!--IMAGEM-->
+          <div class="product__header">
+            <img class="image" src="/images/Produtos/Ocidental/9.png" alt="product">
+          </div>
+          <!--BOTÕES-->
+          <div class="btn">
+            <ul>
+              
+              <!--VISUALIZAR-->
+              <li><button class="ver"><i class="fas fa-eye"></i></button></li>
+              <!--FAVORITOS-->
+              <li><button class="fav"><i class="fas fa-heart"></i></button>
+              </li>
+              <!--ADICIONAR CARRINHO-->
+              <li><button class="carrinho"><i class="fas fa-cart-plus"></i></button></li>
+            </ul>
+          </div>
+          
+          <!--TITULO DO PRODUTO-->
+          <div class="product__footer">
+            <h3 class="nome">Ananas</h3>
+            <p class ="carateristica">Sabia que o Ananás dos Açores demora dois anos a crescer? O Ananás dos Açores, produzido na ilha de São Miguel, é produzido em estufas de vidro, utilizando técnicas de cultivo tradicionais: aplicação de «fumos» e utilização de «camas quentes» à base de matéria vegetal. Ao fim de um período de dois anos, desde a plantação até à colheita obtém se um ananás de qualidades ímpares de aroma e sabor.</p>
+          
+          <!--PREÇO DO PRODUTO-->
+            <div class="product__price">
+              <h4><span class="preco">9.50</span>€</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <!--IMAGEM-->
+          <div class="product__header">
+            <img class="image" src="/images/Produtos/Ocidental/10.png" alt="product">
+          </div>
+          <!--BOTÕES-->
+          <div class="btn">
+            <ul>
+              
+              <!--VISUALIZAR-->
+              <li><button class="ver"><i class="fas fa-eye"></i></button></li>
+              <!--FAVORITOS-->
+              <li><button class="fav"><i class="fas fa-heart"></i></button>
+              </li>
+              <!--ADICIONAR CARRINHO-->
+              <li><button class="carrinho"><i class="fas fa-cart-plus"></i></button></li>
+            </ul>
+          </div>
+          
+          <!--TITULO DO PRODUTO-->
+          <div class="product__footer">
+            <h3 class="nome">Chá Gorreana</h3>
+            <p class ="carateristica">Chá Gorreana Hysson verde é produzido pela Fábrica de Chá Gorreana em São Miguel, Açores. O chá verde Hysson é produzido a partir das três primeiras folhas da planta do chá ( Camellia Sinensis ) que são colhidas em julho e agosto, quando o sol é mais forte. O resultado é um chá verde acastanhado com um aroma delicado e um sabor intenso. Ideal para ser apreciado em todos os momentos do dia, o Hysson é muito rico em taninos e antioxidantes sendo conhecido pelos seus vários benefícios para a saúde.</p>
+          
+          <!--PREÇO DO PRODUTO-->
+            <div class="product__price">
+              <h4><span class="preco">3.99</span>€</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <!--IMAGEM-->
+          <div class="product__header">
+            <img class="image" src="/images/Produtos/Ocidental/11.png" alt="product">
+          </div>
+          <!--BOTÕES-->
+          <div class="btn">
+            <ul>
+              
+              <!--VISUALIZAR-->
+              <li><button class="ver"><i class="fas fa-eye"></i></button></li>
+              <!--FAVORITOS-->
+              <li><button class="fav"><i class="fas fa-heart"></i></button>
+              </li>
+              <!--ADICIONAR CARRINHO-->
+              <li><button class="carrinho"><i class="fas fa-cart-plus"></i></button></li>
+            </ul>
+          </div>
+          
+          <!--TITULO DO PRODUTO-->
+          <div class="product__footer">
+            <h3 class="nome">Kima de Maracujá</h3>
+            <p class ="carateristica">Sumo Kima de Maracujá dos Açores é único com sabor a maracujá produzido na fábrica Melo Abreu, em São Miguel, Açores Ingredientes: água e dióxido de carbono, açúcar, concentrado de sumo de maracujá(10%), regulador de acidez, ácido cítrico, antioxidante: ácido ascórbico, edulcorante, sucralose</p>
+          
+          <!--PREÇO DO PRODUTO-->
+            <div class="product__price">
+              <h4><span class="preco">0.95</span>€</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <!--IMAGEM-->
+          <div class="product__header">
+            <img class="image" src="/images/Produtos/Ocidental/12.png" alt="product">
+          </div>
+          <!--BOTÕES-->
+          <div class="btn">
+            <ul>
+              
+              <!--VISUALIZAR-->
+              <li><button class="ver"><i class="fas fa-eye"></i></button></li>
+              <!--FAVORITOS-->
+              <li><button class="fav"><i class="fas fa-heart"></i></button>
+              </li>
+              <!--ADICIONAR CARRINHO-->
+              <li><button class="carrinho"><i class="fas fa-cart-plus"></i></button></li>
+            </ul>
+          </div>
+          
+          <!--TITULO DO PRODUTO-->
+          <div class="product__footer">
+            <h3 class="nome">Laranjada</h3>
+            <p class ="carateristica">Refrigerante com gás sabor a laranja produzido na fábrica Melo Abreu, em São Miguel, Açores Ingredientes: água tratada, dióxido de carbono, açúcar, aromatizantes naturais de laranja, regulador de acidez: ácido cítrico. Corado artificialmente (E102, E129).</p>
+          
+          <!--PREÇO DO PRODUTO-->
+            <div class="product__price">
+              <h4><span class="preco">3.00</span>€</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <!--IMAGEM-->
+          <div class="product__header">
+            <img class="image" src="/images/Produtos/Terceira/13.png" alt="product">
+          </div>
+          <!--BOTÕES-->
+          <div class="btn">
+            <ul>
+              
+              <!--VISUALIZAR-->
+              <li><button class="ver"><i class="fas fa-eye"></i></button></li>
+              <!--FAVORITOS-->
+              <li><button class="fav"><i class="fas fa-heart"></i></button>
+              </li>
+              <!--ADICIONAR CARRINHO-->
+              <li><button class="carrinho"><i class="fas fa-cart-plus"></i></button></li>
+            </ul>
+          </div>
+          
+          <!--TITULO DO PRODUTO-->
+          <div class="product__footer">
+            <h3 class="nome">Gin Rocha Negra</h3>
+            <p class ="carateristica">Gin destilado e produzido na ilha de São Miguel, pela empresa Lima & Quental. Garrafa de 700 O Gin Rocha Negra é composto por nove espécies botânicas dos Açores, entre citrinos e plantas aromáticas, e foi desenvolvido com o objectivo de criar um produto de alta qualidade. Traduz as tonalidades preto cinza do basalto vulcânico, que marcam a paisagem marítima e rural das ilhas atlânticas, que emana o calor marcante do sabor intenso do verdadeiro espírito açoriano. Enriquecido com botânicos das ilhas, ajusta se ao temperamento da cada momento tal qual a vivência das quatro estações num só dia. Amargo suave. Sente se a brisa atlântica moldada pela rocha vulcânica. Teor alcoólico: 40% Vol. Sem corantes nem conservantes.</p>
+          
+          <!--PREÇO DO PRODUTO-->
+            <div class="product__price">
+              <h4><span class="preco">39.44</span>€</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <!--IMAGEM-->
+          <div class="product__header">
+            <img class="image" src="/images/Produtos/Ocidental/14.png" alt="product">
+          </div>
+          <!--BOTÕES-->
+          <div class="btn">
+            <ul>
+              
+              <!--VISUALIZAR-->
+              <li><button class="ver"><i class="fas fa-eye"></i></button></li>
+              <!--FAVORITOS-->
+              <li><button class="fav"><i class="fas fa-heart"></i></button>
+              </li>
+              <!--ADICIONAR CARRINHO-->
+              <li><button class="carrinho"><i class="fas fa-cart-plus"></i></button></li>
+            </ul>
+          </div>
+          
+          <!--TITULO DO PRODUTO-->
+          <div class="product__footer">
+            <h3 class="nome">"Biscoito Orelha</h3>
+            <p class ="carateristica">A produção do biscoito de orelha de Santa Maria circunscreve se à ilha de Santa Maria, constituindo um produto de referência da gastronomia mariense. O Biscoito de Orelha de Santa Maria apresenta um modo muito particular de moldagem, exclusivamente manual, que requer grande destreza de mãos, no enrolar sobre os dedos da mão esquerda e no corte das orelhas, o que lhe confere um formato triangular genuíno e característico, que só as exímias doceiras de Santa Maria o conseguem fazer Ingredientes Farinha de trigo tipo 65, sal, ovos, açúcar e manteiga. Embalagem de aproximadamente 430g Produtor: Cooperativa de Artesanato de Santa Maria Santo Espírito</p>
+          
+          <!--PREÇO DO PRODUTO-->
+            <div class="product__price">
+              <h4><span class="preco">4.10</span>€</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="product">
+          <!--IMAGEM-->
+          <div class="product__header">
+            <img class="image" src="/images/Produtos/Terceira/15.png" alt="product">
+          </div>
+          <!--BOTÕES-->
+          <div class="btn">
+            <ul>
+              
+              <!--VISUALIZAR-->
+              <li><button class="ver"><i class="fas fa-eye"></i></button></li>
+              <!--FAVORITOS-->
+              <li><button class="fav"><i class="fas fa-heart"></i></button>
+              </li>
+              <!--ADICIONAR CARRINHO-->
+              <li><button class="carrinho"><i class="fas fa-cart-plus"></i></button></li>
+            </ul>
+          </div>
+          
+          <!--TITULO DO PRODUTO-->
+          <div class="product__footer">
+            <h3 class="nome">"Alheira Santa Maria</h3>
+            <p class ="carateristica">Alheira Regional da ilha de Santa Maria, Açores, produzida pela empresa Sicosta Enchido de suíno e frango, condimentado com temperos da ilha de Santa Maria. Embalagem de 200g Ingredientes: Carne suino , carne frango, farinha Trigo, cebola, pimenta, sal, alho, tripa e especiarias</p>
+          
+          <!--PREÇO DO PRODUTO-->
+            <div class="product__price">
+              <h4><span class="preco">3.75</span>€</h4>
+            </div>
+          </div>
+        
+      </div>
+      
+    </div>
+  </section>
+	 <!-- FIM PRODUTOS -->
+	
+	
+	<!-- DETALHE PRODUTOS -->
+
+  <div class="modal"></div>
+
+  <div class="modal__content">
+
+    <i class="modal__close far fa-times-circle"></i>
+
+    <div class="modal__left">
+      <img class="modal__img" src="" alt="Imagem do Produto">
+    </div>
+
+    <div class="modal__right">
+      <div class="detail">
+        <h2 class="detail__title"></h2>
+        <p class="detail__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, labore quaerat
+          magni ad dolores libero culpa ipsa fugit voluptates ipsam!</p>
+        <p class="detail__price"></p>
+        <input class="inputproduto" type="number" max=30 placeholder="stock: 30 itens">
+        <p class="detail__bagBtn">add to bag</p>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+	 <!--FIM DETALHE PRODUTOS -->
+	
+	<!--CARRINHO DE COMPRAS-->
+  <div class="cartBox">
+
+
+    <div class="carrobox">
+    <i class="fas fa-window-close fecharcarro"></i>
+
+		  <div class="cart">
+			  <h1>Carrinho de Compras</h1>
+			  <table class="tablecart"></table>
+       
+        <p class="Subtotalcarrinho">Subtotal: <span class="subtotal"></span></p>
+        <p class="Envio">Envio: <span class="envio1"></span></p>
+        <p class="TotalCarrinho">Total <span class="totalCarro"></span></p>
+		  </div>
+
+      <div class="forcompra">
+       <h1>Detalhe de Envio</h1>
+        
+        <div class="formCompra">
+        <label>Nome Completo*</label><small>Error</small>
+        <input class="nomecompleto" id="nomecompleto" type="text" placeholder="Coloque aqui o seu nome">
+        </div>
+
+        <div class="formCompra">
+        <label>Morada*</label><small>Error</small>
+        <input class="morada" id="morada1" type="text" placeholder="Coloque aqui a sua morada completa">
+        </div>
+
+        <div class="formCompra">
+        <label>Localidade*</label><small>Error</small><br>
+        <input class="loca1" id="loca1" type="number" placeholder="3000">-
+        <input class="loca1" id="loca2" type="number" placeholder="158">
+        <input class="loca3" id="loca3" type="text" placeholder="localidade">
+        </div>
+
+        <div class="formCompra">
+        <label>Contribuinte*</label><small>Error</small>
+        <input class="nif" id="contribuinte" type="number" placeholder="Colque aqui o seu número de contribuinte">
+        </div>
+
+        
+        <div class="formCompra">
+        <label>Telefone*</label><small>Error</small>
+        <input class="tel" id="tel" type="tel" placeholder="coloque aqui o seu contacto">
+        </div>
+
+        <div class="formCompra">
+        <label>Email*</label><small>Error</small>
+        <input class="mail" id="mailCompra" type="email" placeholder="Coloque aqui o seu email">
+        </div>
+        
+
+        <h1>Método de Pagamento</h1>
+
+        <div class="formCompra">
+        <label>Nome no Cartão Crédito*</label ><small>Error</small>
+        <input class="nc" id="nc" type="text" placeholder="Coloque aqui em que nome está no cartão">
+        </div>
+
+        <div class="formCompra">
+        <label>Número do Cartão Crédito*</label><small>Error</small>
+        <input class="noc" id="noc" type="number" placeholder="000350456789">
+        </div>
+
+        <div class="cartaodav">
+        <div class="formCompra">
+        <label>Data de validade*</label><small>Error</small> <br>
+        <input class="dv" id="dv" type="month" min="2021-06">
+        </div>
+
+        <div class="formCompra">
+        <label>CVV*</label><small>Error</small> <br>
+        <input class="cvv" id="cvv" type="number" placeholder="456">
+        </div>
+        </div>
+
+        <label>PAGAR POR:</label><br>
+        <button onclick="compraMbWay()" id="pgmbway"><img src="/images/mbway.png" width="20px"></button>
+        <button onclick="compraCC()" id="pgCC">PAGAR AGORA</button>
+        <button onclick="compraPayPal()" id="pgPayPal"><img src="/images/paypal.svg" width="20px"></button>
+        
+    </div>
+  </div>
+	</div>
+  <!--FIM CARRINHO DE COMPRAS-->
+  
+
+   <!--FOOTER --->
+
+	<footer id="footer" class="section footer">
+    <div class="container">
+      <div class="footer__top">
+		  <!--LINK EXTERNO --->
+        <div class="footer-top__box">
+			    <h3>Bazar dos Açores INFO </h3> 
+          <a href="/APP/HTML/SobreNos_App.html">Sobre Nós</a>
+        </div>
+
+         <!--SIMULAÇÃO REDES SOCIAIS --->
+         <div class="footer-top__box">
+          <h3>Encontre-nos em:</h3>
+				    <a href="#"><img src="/images/facebook.svg" width="20px" alt="facebook"></a>
+            <a href="#"><img src="/images/twitter.svg" width="20px" alt="twitter"></a>
+			      <a href="#"><img src="/images/instagram.svg" width="20px" alt="instagram"></a>
+			    </div>  	
+
+        <div class="footer-top__box">
+          <a id="ajuda" href="/APP/HTML/Ajuda_App.html">Ajuda e Suporte</a>
+			    <p>Devoluções</p>
+			    <p>Preço de Envio</p>
+			    <p>Como Pedir</p>
+			    <p>Como rastrear</p>
+        </div>
+
+        <!--TIPO DE PAGAMENTOS --->
+        <div class="footer-top__box">
+          <h3>Aceitamos:</h3>
+          <img src="/images/mbway.png" alt="mbway" width="20px">
+          <img src="/images/paypal.svg" alt="PayPal" width="20px">
+          <img src="/images/credit.svg" alt="Cartão Crédito" width="25px">
+
+		   
+			  <!--PARA SUBSCREVER AS NEWSLETTER --->
+		    <div class="footer-top__box"></div>
+          <p id="newsletter">Registe o seu email para receber as nossas novidades e promoções epeciais:</p>
+          <div>
+         	  <input type="email" placeholder="Coloque aqui o seu email">
+			      <a href="#" id="button">SUBSCREVER</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+		  
+    <div class="footer__bottom">
+      <div class="footer-bottom__box">
+      </div>
+      <div class="footer-bottom__box">
+      </div>
+    </div>
+
+  </footer>
+  <!-- FIM Footer -->
+	
+	
+	<!--ATALHO PARA CIMA-->
+	<a href="#header" class="goto-top scroll-link">
+    <i class="fas fa-chevron-up"></i>
+  </a>
+	<!--fim atalho cima-->
+	
+<!--POP UP DE CONFIRMAÇÃO -->
+ 
+<div class="PopUpSub">
+  <div class="PopUpSubContent">
+    <i class="far fa-times-circle closesub"></i>
+    <h2> <i class="fas fa-hand-peace"></i>Agradecemos pela sua subscrição</h2>
+  </div>
+</div>	
+	
+	
+	
+	
+<!--JAVASCRIPT-->
+  <script src="/JAVASCRIPT/home.js"></script>
+  <script src="/JAVASCRIPT/carrinho.js"></script>
+

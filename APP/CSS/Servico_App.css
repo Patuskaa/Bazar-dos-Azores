@@ -1,0 +1,263 @@
+.servico__box h3{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.servico__box p{
+    font-size: 1.2rem;
+    padding-top: 1rem;
+    margin-left: 5%;
+    margin-right: 2rem;
+    font-weight: 100;
+    color: grey;
+}
+
+.servico__box h2{
+    font-size: 1.5rem;
+}
+
+.caixaprenda{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.caixas{
+    display: flex;
+    position: relative;
+}
+
+.caixa__prenda{
+    display: inline;
+    width: 210px;
+    margin-top: 3%;
+    margin-left: 5%; 
+}
+
+.caixa__prenda img{
+    position: relative;
+}
+
+.caixa__prenda #titleservico{
+    font-size: 1.2rem;
+    padding-left: 60px;
+    color: black;
+    font-weight: bold;
+    margin-left: 0%;
+}
+
+
+.caixa__prenda #priceservico{
+    font-size: 1rem;
+    padding-left: 80px;
+    padding-top: 0;
+}
+
+.caixa__prenda input{
+    margin-top: 1rem;
+    width: 60px;
+    margin-left: 30px;
+    border: none;
+    background-color: #bebebe;
+    color: black;
+    border-radius: 15px;
+    padding: 0 1rem;
+}
+
+#stockp{
+    font-size: 1rem;
+    padding-left: 1.5rem;
+    color:grey;
+}
+
+.addcart, addcart2{
+    border:none;
+    color: black;
+    width: 30px;
+    background-color: transparent;
+}
+
+
+.addcart:hover{
+    color: grey;
+    transform: translateY(-10%);
+    cursor: pointer;
+}
+
+.addcart2:hover{
+    color: grey;
+    transform: translateY(-10%);
+    cursor: pointer;
+}
+
+.saco{
+    margin-left: 3%;
+    display: inline-flex;
+}
+
+.servico__saco{
+    width: 100%;
+}
+
+.servico__saco h3{
+    margin-top: 5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+
+
+.servico__saco img{
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.sacobox{
+    margin-top: 7%;
+    width: 50%;
+    margin-left: 10%;
+}
+
+.sacobox #titleservico{
+    margin-left: 5%;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    position: relative;
+    display: flex;
+}
+
+.sacobox #priceservico{
+    display: inline-block;
+    margin-left: 5%;
+    font-size: 1.3rem;
+    color: grey;
+}
+
+.sacobox input{
+    display: inline-block;
+    margin-left: 2%;
+    margin-top: 0.5%;
+    width: 60px;
+    border: none;
+    background-color: #bebebe;
+    color: black;
+    border-radius: 15px;
+    padding: 0 1rem;
+}
+
+.sacobox #stockp{
+    display: inline-block;
+    font-size: 1.1rem;
+}
+
+.Postal{
+    margin-top: 5rem;
+    display:flex;
+    margin-left: 5%;
+    margin-bottom: 5rem;
+}
+
+.postaltitle h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.postaltitle img{
+    margin-top: 3%;
+}
+
+.postalinput #titleservico{
+    margin-left: 5rem;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.postalinput #priceservico{
+    margin-left: 5rem;
+    font-size: 1.3rem;
+    color: grey;
+    display: inline-block;
+}
+
+.postalinput textarea{
+    font-family: "poppins";
+    border: none;
+    background-color: #bebebe;
+    color: black;
+    border-radius: 15px;
+    font-size: 1rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 200px;
+    height: 140px;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+}
+
+.postalinput .addcart{
+    display: inline-block;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .servico__box p{
+        margin-right: 2rem;
+    }
+
+    .servico__box h2{
+        font-size: 1.5rem;
+    }
+
+    .caixa__prenda{
+        width: 210px;
+      }
+    
+    .caixa__prenda #titleservico{
+        font-size: 1.2rem;
+        padding-left: 60px;
+    }
+
+    .caixa__prenda #priceservico{
+        font-size: 1rem;
+        padding-left: 80px;
+    }
+
+    .caixa__prenda input{
+        margin-left: 30px;
+    }
+
+    .servico__saco h3{
+    font-size: 1.5rem;
+    }
+
+    .sacobox{
+    margin-top: 7%;
+    width: 50%;
+    }
+
+    .postaltitle h3{
+    font-size: 1.5rem;
+    }
+
+    .postalinput #titleservico{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    }
+
+    .postalinput textarea{
+    font-size: 1rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 200px;
+    height: 140px;
+    margin-top: 1rem;
+    }
+}

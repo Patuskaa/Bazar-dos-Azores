@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- ICONS---->
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	
+	<!-- GOOGLE FONTS---->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,200;1,500&display=swap" rel="stylesheet">
+
+  	
+  	<!-- CSS -->
+  	<link rel="stylesheet" href="/APP/CSS/Home_App.css">
+    <link rel ="stylesheet" href="/APP/CSS/Servico_App.css">
+    <link rel="stylesheet" href="/APP/CSS/Carrinho_App.css">
+    <link rel="stylesheet" href="/APP/CSS/Fav_App.css">
+
+  	<title>Página de Perfil</title>
+
+
+</head>
+
+<body>
+
+	<!-- BARRA PROMOÇÃO-->
+	<div class="promotion">
+		<i class="fas fa-bolt"></i>
+		Envio Gratuito a partir dos 50€
+		<i class="fas fa-bolt"></i>
+	</div>
+	
+  <!-- BARRA DE MENU -->
+  <header id="header" class="header">
+    <div class="navigation">
+      <div class="container">
+        <nav class="nav">
+            
+
+            <!-- ICON DE HAMBURGER -->
+            <div class="nav__hamburger">
+                <i class="fas fa-bars hamburger"></i>
+            </div>
+
+            <!-- LOGO NA BARRA-->
+            <div class="nav__logo">
+                <a href="/" class="scroll-link">
+                    <img src="/images/logo_svg.svg" alt="logo" width="125px">
+                </a>
+            </div>
+
+            <div class="nav__menu">
+            
+                <div class="menu__top">
+                
+                    <!-- LOGO NA BARRA LATERAL-->
+                    <span class="nav__category"><img src="/images/logo_svg.svg" alt="logo" width="125px"></span>
+              
+                    <!-- ICON PARA ENCERRAR A BARRA LATERAL-->
+                    <a href="#" class="close__toggle closemenu">
+                        <i class="fas fa-times"></i>
+                    </a>
+                </div>
+            
+                <ul class="nav__list">
+                  <!-- ICON DE INICIO-->
+                  <li class="nav__item">
+                      <a href="/APP/HTML/Index_App.html">
+                          <i class="fas fa-home"></i>  Inicio</a>
+                  </li>
+                  <!-- ICON DE SERVIÇO-->
+                  <li class="nav__item">
+                      <a href="/APP/HTML/Servico_App.html">
+                          <i class="fas fa-gift"></i>   Serviços</a>
+                  </li>
+                  <!-- ICON DE PERFIL-->
+                  <li class="nav__item">
+                      <a href="/APP/HTML/Perfil_App.html">
+                          <i class="fas fa-user"></i>Perfil</a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="/APP/HTML/Index_App.html">
+                      <i class="fas fa-map-pin"></i>Terceira</a>
+                </li>
+                <li class="nav__item">
+                  <a href="/APP/HTML/Graciosa_App.html">
+                    <i class="fas fa-map-pin"></i>Graciosa</a>
+              </li>
+              <li class="nav__item">
+                <a href="/APP/HTML/SaoJorge_App.html">
+                  <i class="fas fa-map-pin"></i>Sao Jorge</a>
+            </li>
+            <li class="nav__item">
+              <a href="/APP/HTML/Pico_App.html">
+                <i class="fas fa-map-pin"></i>Pico</a>
+          </li>
+          <li class="nav__item">
+            <a href="/APP/HTML/Faial.html">
+              <i class="fas fa-map-pin"></i>Faial</a>
+        </li>
+        <li class="nav__item">
+          <a href="/APP/HTML/Oriente_App.html">
+            <i class="fas fa-map-pin"></i>Grupo Oriental</a>
+      </li>
+      <li class="nav__item">
+        <a href="/APP/HTML/Ocidente_App.html">
+          <i class="fas fa-map-pin"></i>Grupo Ocidental</a>
+    </li>
+              </ul>
+          </div>
+
+          <!-- ICON DE CARRINHO DE COMPRAS-->
+          
+          <div class="nav__icons">
+            <div class="login">
+              <a href="/APP/HTML/Registo_App.html">
+                <i class="fas fa-user-plus"></i>
+                login
+              </a>
+            </div>
+            
+            <div class="iconShopping">
+              <p>0</p>
+              <i class="fas fa-shopping-cart"></i>   
+            </a>
+            </div>
+          </div>
+      </nav>
+    </div>
+  </div>
+	<!-- FIM MENU -->  
+
+  <!--CARRINHO DE COMPRAS-->
+  <div class="cartBox">
+
+
+    <div class="carrobox">
+    <i class="fas fa-window-close fecharcarro"></i>
+
+		  <div class="cart">
+			  <h1>Carrinho de Compras</h1>
+			  <table class="tablecart"></table>
+       
+        <p class="Subtotalcarrinho">Subtotal: <span class="subtotal"></span></p>
+        <p class="Envio">Envio: <span class="envio1"></span></p>
+        <p class="TotalCarrinho">Total <span class="totalCarro"></span></p>
+		  </div>
+
+      <div class="forcompra">
+       <h1>Detalhe de Envio</h1>
+        
+        <div class="formCompra">
+        <label>Nome Completo*</label><small>Error</small>
+        <input class="nomecompleto" id="nomecompleto" type="text" placeholder="Coloque aqui o seu nome">
+        </div>
+
+        <div class="formCompra">
+        <label>Morada*</label><small>Error</small>
+        <input class="morada" id="morada1" type="text" placeholder="Coloque aqui a sua morada completa">
+        </div>
+
+        <div class="formCompra">
+        <label>Localidade*</label><small>Error</small><br>
+        <input class="loca1" id="loca1" type="number" placeholder="3000">-
+        <input class="loca1" id="loca2" type="number" placeholder="158">
+        <input class="loca3" id="loca3" type="text" placeholder="localidade">
+        </div>
+
+        <div class="formCompra">
+        <label>Contribuinte*</label><small>Error</small>
+        <input class="nif" id="contribuinte" type="number" placeholder="Colque aqui o seu número de contribuinte">
+        </div>
+
+        
+        <div class="formCompra">
+        <label>Telefone*</label><small>Error</small>
+        <input class="tel" id="tel" type="tel" placeholder="coloque aqui o seu contacto">
+        </div>
+
+        <div class="formCompra">
+        <label>Email*</label><small>Error</small>
+        <input class="mail" id="mailCompra" type="email" placeholder="Coloque aqui o seu email">
+        </div>
+        
+
+        <h1>Método de Pagamento</h1>
+
+        <div class="formCompra">
+        <label>Nome no Cartão Crédito*</label ><small>Error</small>
+        <input class="nc" id="nc" type="text" placeholder="Coloque aqui em que nome está no cartão">
+        </div>
+
+        <div class="formCompra">
+        <label>Número do Cartão Crédito*</label><small>Error</small>
+        <input class="noc" id="noc" type="number" placeholder="000350456789">
+        </div>
+
+        <div class="cartaodav">
+        <div class="formCompra">
+        <label>Data de validade*</label><small>Error</small> <br>
+        <input class="dv" id="dv" type="month" min="2021-06">
+        </div>
+
+        <div class="formCompra">
+        <label>CVV*</label><small>Error</small> <br>
+        <input class="cvv" id="cvv" type="number" placeholder="456">
+        </div>
+        </div>
+
+        <label>PAGAR POR:</label><br>
+        <button onclick="compraMbWay()" id="pgmbway"><img src="/images/mbway.png" width="20px"></button>
+        <button onclick="compraCC()" id="pgCC">PAGAR AGORA</button>
+        <button onclick="compraPayPal()" id="pgPayPal"><img src="/images/paypal.svg" width="20px"></button>
+        
+    </div>
+  </div>
+	</div>
+  <!--FIM CARRINHO DE COMPRAS-->
+
+    
+  <div class="containerprofile">
+        
+    <div class="main-bd">
+
+        <div class="left-side">
+
+            <div class="profile-header">
+                <div class="profile-img">
+                    <img id="profile-img-img" src="/images/profile.jpg" width="150px" alt="imagem de perfil">
+                    <label id="fileButton" for="file" style="cursor:pointer"><i class="fas fa-camera"></i>  Alterar Foto</label>
+            <input type="file" accept="image/*" name="image" id="file" onchange="loadFile(event)" style="display:none">
+                  </div>
+            </div>
+        
+            <div class="profile-side">
+                <div class="username">
+                    <h3 class="user-name">Catarina Gomes</h3>
+                </div>
+          
+              <div class="birthday">
+                  <p> <i class="fas fa-birthday-cake"></i> <span id="databthd">24/10/1992 </span> </p>
+              </div>
+          
+           
+            <div class="morada2">
+              <p> <i class="fas fa-map-marker-alt"></i><span id="morada12">Morada</span>
+            </div>
+
+              
+            <div class="lcoalidade">
+                <p id="local"><span id="loc1">3000</span><span>-</span> <span id="loc2">150 </span><span id="localidadenome">Coimbra</span></p>
+            </div>
+        
+          </div>
+     
+        </div>
+
+    <div class="right-side">
+        <div class="navprofile">
+          <ul>
+            <li><a href="/APP/HTML/Perfil_App.html" class="user-data">Os meus dados</a></li>
+            <li><a href="/APP/HTML/Fav_App.html" class="user-data  active">Os meus favoritos</a></li>
+          </ul>
+        </div>
+
+        <div class="profile-body">
+            <div class="profile-posts tab">
+                <div class="favcontaneir">
+                    <div class="favbox">
+     
+                    </div>
+                </div>
+     
+            </div>
+     
+        </div>
+    </div>
+</div>
+           
+         
+   
+       
+           
+</div>
+
+ <!--JAVASCRIPT-->
+ <script src="/JAVASCRIPT/home.js"></script>
+ <script src="/JAVASCRIPT/carrinho.js"></script>
+ <script src="/APP/HTML/fav_App.js"></script>
