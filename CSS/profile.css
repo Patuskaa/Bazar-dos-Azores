@@ -1,0 +1,613 @@
+
+
+.main-bd{
+    width: 100%;
+    display: flex;
+    padding-right: 15px;
+}
+
+.profile-header{
+    width: 100%;
+    display: flex;
+    height: 190px;
+    position: relative;
+}
+
+.profile-img{
+    float:left;
+}
+
+.profile-img img{
+    height: 200px;
+    width: 200px;
+    position: flex;
+    left: 50px;
+    top: 20px;
+    z-index: 1;
+}
+
+#fileButton{
+    display: flex;
+    margin-left: 5rem;
+    font-weight: bold;
+    opacity: 0.5;
+}
+
+#fileButton:hover{
+    opacity: 1;
+}
+
+#fileButton i{
+    margin-right: 1rem;
+    margin-top: 3px;
+}
+
+.profile-side{
+    margin-top: 35%;
+    margin-bottom: 15%;
+    width: 200px;
+    height: 300px;
+    padding: 30px 30px 20px;
+    margin-left: 10px;
+    background-color: lightgray;
+}
+
+
+.profile-side h3{
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+.profile-side p{
+    text-align: left;
+    margin-bottom: 10px;
+    color: grey;
+    font-size: 1.5rem;
+    padding-right: 3rem;
+}
+
+.profile-side p i{
+    padding-right: 1rem;
+}
+
+.navprofile{
+    margin-top: 2%;
+    width: 100%;
+    z-index: -1;
+}
+
+
+.navprofile ul{
+    
+    margin-top: 3rem;
+    display: flex;
+    list-style-type: none;
+    height: 50px;
+}
+
+.navprofile ul li a{
+    color: grey;
+    width: 100%;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    padding-bottom: 2rem;
+    cursor: pointer;
+    text-align: center;
+    transition: all .2s ease-in-out;
+}
+
+.navprofile ul li a.active , 
+.navprofile ul li a:hover {
+    color: black;
+    font-weight: bold;
+    box-shadow: 0px -3px 0px black inset;
+}
+
+.profile-body{
+    margin-top: 3%;
+    margin-left: 3%;
+    width: 100%;
+    z-index: -1;
+}
+
+
+.profileform label{
+    font-size: 1.4rem;
+    color: grey;
+}
+
+.profileform input{
+    margin-right: 3rem;
+    border:none;
+    border-radius: 15px;
+    background-color: #f0f0f0;
+    padding: 3px 10px;
+    color: black;
+}
+
+.profileform #nomeprofile{
+    display: inline;
+    margin-top: 2rem;
+}
+
+.profileform2 label{
+    font-size: 1.4rem;
+    color: grey;
+}
+
+.profileform2 input{
+    margin-right: 3rem;
+    border:none;
+    border-radius: 15px;
+    background-color: #f0f0f0;
+    padding: 3px 10px;
+    color: black;
+}
+
+.profileform2 #date{
+    width: 35%;
+    margin-top: 2rem;
+    font-size: 12px;
+    text-align: center;
+    margin-right: 21rem;
+}
+
+#date::-webkit-calendar-picker-indicator {
+    margin: 0 3rem;
+    padding: 1rem;
+    opacity: 0.5;
+    cursor: pointer;
+  }
+
+.generorprofile{
+    display: inline-flex;
+    margin-top: 2rem;
+    margin-left: 6rem;
+}
+
+
+.generorprofile i{
+    color: grey;
+    padding-right: 10px;
+}
+
+.profileform2{
+    display: flex;
+    flex-direction: column;
+}
+
+.profileform2 #moradaprofile{
+    margin-top: 1rem;
+    width: 72%;
+}
+
+.localidadeprofile2 {
+    display: inline;
+    margin-top: 2rem;
+}
+
+.localidadeprofile2 #loc1profile, #loc2profile {
+  width: 70px;
+  margin-right: 10px;
+}
+
+.localidadeprofile2 #localidadeprofile{
+    width: 345px;
+    margin-bottom: 2rem;
+}
+
+#btnremove{
+    background-color: transparent;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#btnremove:hover{
+    color: grey;
+}
+
+#nifprofile{
+    width: 65%;
+}
+
+.emailform{
+    margin-top: 2rem;
+    display: inline;
+}
+
+
+.emailform #mail2profile, #mailprofile{
+    width: 31%;
+}
+
+.telform{
+    margin-top: 2rem;
+    display: inline;
+}
+
+.telform #telefoneprofile{
+    width: 20%;
+}
+
+.telform #tel2profile{
+    width: 20%;
+}
+.passform{
+    margin-top: 2rem;
+    display: inline;
+}
+
+.passform #passprofile, #passprofile2{
+    width: 23%;
+}
+
+
+
+#Change{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 200px;
+    padding: 1rem;
+    border: none;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+   
+}
+
+#Change:hover{
+    background-color: grey;
+    cursor: pointer;
+    
+}
+
+
+.tab{
+    padding-left: 80px;
+    width: 100%;
+    text-align: left;
+    display:flex;
+    flex-direction: column;
+}
+
+.tab input{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: grey;
+}
+
+
+
+
+@media only screen and (max-width: 999px) {
+    .profileform2 #date{
+        margin-right: 23rem;
+    }
+
+    .generorprofile{
+        margin-left: 2.5rem;
+    }
+    
+    .profileform2 #moradaprofile{
+        margin-right: 7rem;
+        margin-top: 2rem;
+    } 
+
+
+    .localidadeprofile2{
+        margin-right: 4rem;
+    }
+    .localidadeprofile2 #localidadeprofile{
+        width: 285px;
+        margin-bottom: 2rem;
+    }
+    
+    #nifprofile{
+        margin-right: 7rem;
+    }
+
+    .emailform{
+        margin-right: 4rem;
+    }
+
+    .emailform #mail2profile, #mailprofile{
+        width: 33%;
+    }
+
+    .telform{
+       margin-right: 4rem;
+    }
+    
+    .telform #telefoneprofile{
+        width: 24%;
+    }
+    
+    .passform{
+        margin-right: 4rem;
+    }
+    
+    .passform #passprofile, #passprofile2{
+        width: 23%;
+    }
+    
+    #Change{
+       
+        margin-left: 2rem;
+    }
+     
+}
+
+
+
+.PopUpVer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.75);
+    transition: all 250ms ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .show{
+      
+    visibility: visible;
+    opacity: 1;
+    z-index: 1;
+  }
+
+  .PopUpVerContent {
+    position:fixed;
+    justify-content: center;
+    align-content: center;
+    width: 960px;
+    height: 340px;
+    max-height: 240px;
+    max-width: 960px;
+    top: 50%;
+    left: 20%;
+    background-color: white;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-100px);
+    transition: all 250ms ease-in-out;
+  }
+
+  .showContent {
+    transform: translateY(0);
+    visibility: visible;
+    opacity: 1;
+    z-index: 2;
+    }
+  
+
+    .PopUpVerContent h2 {
+    margin-top: 8rem;
+    text-align: center;
+  }
+
+  .closesub {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    color: black;
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+    z-index: 3;
+  }
+
+  .closesub:hover{
+    color:grey;
+  }
+  
+  
+
+
+@media only screen and (max-width: 768px) {
+
+    
+    
+    .profile-header{
+        width: 150px;
+        height: 150px;
+    }
+   
+    .profile-img img{
+        left: 10px;
+        height: 150px;
+        width: 150px;
+    }
+    
+    .profile-side{
+        width: 150px;
+        height: 450px;
+        padding: 10px 10px 10px;
+        margin-left: 10px;
+    }
+    
+    .profile-side h3{
+        margin-top: 12rem;
+        font-size: 1.5rem;
+    }
+
+    .profile-side p{
+        margin-bottom: 10px;
+        font-size: 1rem;
+        padding-right: 1rem;
+        padding-top: 1rem;
+    }
+    
+    .navprofile{
+        width: 50%;
+        
+    }
+   
+    .profile-body{
+        margin-top: 1%;
+        margin-left: 1%;
+        width: 50%;
+        
+    }
+    .profileform label{
+        font-size: 1.2rem;
+        text-align: left;
+        margin-right: 15rem;
+    }
+    
+    .profileform input{
+        margin-right: 1rem;
+        padding: 2px 5px;
+    }
+    
+    .profileform #nomeprofile{
+        margin-top: 1rem;
+        width: 290px;
+    }
+    
+    .profileform #apelidoprofile{
+        width: 290px;
+    }
+
+    .profileform2 label{
+        font-size: 1.2rem;
+    }
+    
+    .profileform2 input{
+        margin-right: 3rem;
+        padding: 2px 5px;
+    }
+    
+
+    .dateform label{
+        margin-right: 7rem;
+    }
+    .profileform2 #date{
+        width: 290px;
+        height: 30px;
+        margin-top: 1rem;
+        font-size: 12px;
+    }
+    
+    .generorprofile{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+        margin-left: 1.5rem;
+        width: 50%;
+        font-size: 1rem
+    }
+    
+   .moradapform{
+       margin-right: 15rem;
+       margin-top: 2rem;
+   }
+    
+    .profileform2 #moradaprofile{
+        width: 290px;
+        margin-top: 1rem;
+    }
+    
+    .localidadeprofile2 label {
+        margin-right: 9rem;
+    }
+    
+    .localidadeprofile2 #loc1profile, #loc2profile {
+      width: 85px;
+      display: inline;
+      margin-top: 1rem;
+    }
+    
+    .localidadeprofile2 #localidadeprofile{
+        display: inline;
+        width: 290px;
+        margin-top: 1rem;
+    }
+    
+    .nifform label{
+        margin-right: 10rem;
+    }
+
+    #nifprofile{
+        margin-top: 1rem;
+        width: 290px;
+    }
+    
+    .emailform{
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .emailform label{
+        margin-right: 11rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+    
+    
+    .emailform #mail2profile, #mailprofile{
+        width: 290px;
+    }
+    
+    .telform{
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .telform #telefoneprofile, #tel2profile{
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        width: 290px;
+    }
+    
+    .passform{
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .passform #passprofile, #passprofile2{
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        width: 290px;
+    }
+    
+    #Change{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        width: 200px;
+        padding: 1rem;
+        border: none;
+        border-radius: 15px;
+        background-color: black;
+        color: white;
+        font-weight: bold;
+        margin-left: 5rem;
+    }
+    
+    #Change:hover{
+        background-color: grey;
+        cursor: pointer;
+        
+    }
+    
+    
+    .tab{
+        padding: 20px;
+        width: 100%;
+        text-align: center;
+        display:flex;
+        flex-direction: column;
+    }
+    
+    
+
+}

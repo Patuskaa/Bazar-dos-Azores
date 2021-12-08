@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- ICONS---->
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	
+	<!-- GOOGLE FONTS---->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,200;1,500&display=swap" rel="stylesheet">
+
+  	
+  	<!-- CSS -->
+  	<link rel="stylesheet" href="/CSS/Home.css" />
+    <link rel="stylesheet" href="/CSS/Carrinho.css"/>
+
+  	<title>Bazar dos Açores</title>
+
+
+</head>
+
+<body>
+
+	<!-- BARRA PROMOÇÃO-->
+	<div class="promotion">
+		<i class="fas fa-bolt"></i>
+		Envio Gratuito a partir dos 50€
+		<i class="fas fa-bolt"></i>
+	</div>
+	
+  <!-- BARRA DE MENU -->
+  <header id="header" class="header">
+    <div class="navigation">
+      <div class="container">
+        <nav class="nav">
+            
+
+            <!-- ICON DE HAMBURGER -->
+            <div class="nav__hamburger">
+                <i class="fas fa-bars hamburger"></i>
+            </div>
+
+            <!-- LOGO NA BARRA-->
+            <div class="nav__logo">
+                <a href="/" class="scroll-link">
+                    <img src="/images/logo_svg.svg" alt="logo" width="125px">
+                </a>
+            </div>
+
+            <div class="nav__menu">
+            
+                <div class="menu__top">
+                
+                    <!-- LOGO NA BARRA LATERAL-->
+                    <span class="nav__category"><img src="/images/logo_svg.svg" alt="logo" width="125px"></span>
+              
+                    <!-- ICON PARA ENCERRAR A BARRA LATERAL-->
+                    <a href="#" class="close__toggle closemenu">
+                        <i class="fas fa-times"></i>
+                    </a>
+                </div>
+            
+                <ul class="nav__list">
+                    <!-- ICON DE INICIO-->
+                    <li class="nav__item">
+                        <a href="/HTML/Index.html">
+                            <i class="fas fa-home"></i>  Inicio</a>
+                    </li>
+                    <!-- ICON DE SERVIÇO-->
+                    <li class="nav__item">
+                        <a href="/HTML/Serviço.html">
+                            <i class="fas fa-gift"></i>   Serviços</a>
+                    </li>
+                    <!-- ICON DE PERFIL-->
+                    <li class="nav__item">
+                        <a href="/HTML/Perfil.html">
+                            <i class="fas fa-user"></i>Perfil</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- ICON DE CARRINHO DE COMPRAS-->
+            
+            <div class="nav__icons">
+              <div class="login">
+                <a href="Registo.html">
+                  <i class="fas fa-user-plus"></i>
+                  login
+                </a>
+              </div>
+              
+              <div class="iconShopping">
+                <p>0</p>
+                <i class="fas fa-shopping-cart"></i>   
+              </a>
+              </div>
+            </div>
+        </nav>
+      </div>
+    </div>
+	<!-- FIM MENU -->  
+	 
+
+    
+	<!--CARRINHO DE COMPRAS-->
+  <div class="cartBox">
+
+
+    <div class="carrobox">
+    <i class="fas fa-window-close fecharcarro"></i>
+
+		  <div class="cart">
+			  <h1>Carrinho de Compras</h1>
+			  <table class="tablecart"></table>
+       
+        <p class="Subtotalcarrinho">Subtotal: <span class="subtotal"></span></p>
+        <p class="Envio">Envio: <span class="envio1"></span></p>
+        <p class="TotalCarrinho">Total <span class="totalCarro"></span></p>
+		  </div>
+
+      <div class="forcompra">
+       <h1>Detalhe de Envio</h1>
+        
+        <div class="formCompra">
+        <label>Nome Completo*</label><small>Error</small>
+        <input class="nomecompleto" id="nomecompleto" type="text" placeholder="Coloque aqui o seu nome">
+        </div>
+
+        <div class="formCompra">
+        <label>Morada*</label><small>Error</small>
+        <input class="morada" id="morada1" type="text" placeholder="Coloque aqui a sua morada completa">
+        </div>
+
+        <div class="formCompra">
+        <label>Localidade*</label><small>Error</small><br>
+        <input class="loca1" id="loca1" type="number" placeholder="3000">-
+        <input class="loca1" id="loca2" type="number" placeholder="158">
+        <input class="loca3" id="loca3" type="text" placeholder="localidade">
+        </div>
+
+        <div class="formCompra">
+        <label>Contribuinte*</label><small>Error</small>
+        <input class="nif" id="contribuinte" type="number" placeholder="Colque aqui o seu número de contribuinte">
+        </div>
+
+        
+        <div class="formCompra">
+        <label>Telefone*</label><small>Error</small>
+        <input class="tel" id="tel" type="tel" placeholder="coloque aqui o seu contacto">
+        </div>
+
+        <div class="formCompra">
+        <label>Email*</label><small>Error</small>
+        <input class="mail" id="mailCompra" type="email" placeholder="Coloque aqui o seu email">
+        </div>
+        
+
+        <h1>Método de Pagamento</h1>
+
+        <div class="formCompra">
+        <label>Nome no Cartão Crédito*</label ><small>Error</small>
+        <input class="nc" id="nc" type="text" placeholder="Coloque aqui em que nome está no cartão">
+        </div>
+
+        <div class="formCompra">
+        <label>Número do Cartão Crédito*</label><small>Error</small>
+        <input class="noc" id="noc" type="number" placeholder="000350456789">
+        </div>
+
+        <div class="cartaodav">
+        <div class="formCompra">
+        <label>Data de validade*</label><small>Error</small> <br>
+        <input class="dv" id="dv" type="month" min="2021-06">
+        </div>
+
+        <div class="formCompra">
+        <label>CVV*</label><small>Error</small> <br>
+        <input class="cvv" id="cvv" type="number" placeholder="456">
+        </div>
+        </div>
+
+        <label>PAGAR POR:</label><br>
+        <button onclick="compraMbWay()" id="pgmbway"><img src="/images/mbway.png" width="40px"></button>
+        <button onclick="compraCC()" id="pgCC">PAGAR AGORA</button>
+        <button onclick="compraPayPal()" id="pgPayPal"><img src="/images/paypal.svg" width="40px"></button>
+        
+    </div>
+  </div>
+	</div>
+  <!--FIM CARRINHO DE COMPRAS-->
+  
+  <div class="sobrenos">
+    <h3>Sobre nós</h3>
+
+    <div class="imgsobrenos">
+        <img src="/images/açores.jpg" alt="açores" width="550px">
+        <img src="/images/arquipelago.jpg" alt="divisão dos arquipélagos" width="550px">
+ 
+    </div>
+
+    <p>Bazar dos Açores é uma plataforma nacional de comércio online de produtos com origem Açoriana. A empresa se concentra principalmente em produtos alimentares provenientes do Arquipélago dos Açores. </p>
+    <p>A marca foi fundada em março 2021 e, desde então, mantém a filosofia de que "todos podem apreciar os produtos das ilhas mais belas de Portugal". </p>
+
+  </div>
+
+   <!--FOOTER --->
+
+	<footer id="footer" class="section footer">
+    <div class="container">
+      <div class="footer__top">
+		  <!--LINK EXTERNO --->
+        <div class="footer-top__box">
+			    <h3>Bazar dos Açores INFO </h3> 
+          <a href="/HTML/SobreNos.html">Sobre Nós</a>
+        </div>
+
+         <!--SIMULAÇÃO REDES SOCIAIS --->
+         <div class="footer-top__box">
+          <h3>Encontre-nos em:</h3>
+				    <a href="#"><img src="/images/facebook.svg" width="20px" alt="facebook"></a>
+            <a href="#"><img src="/images/twitter.svg" width="20px" alt="twitter"></a>
+			      <a href="#"><img src="/images/instagram.svg" width="20px" alt="instagram"></a>
+			    </div>  	
+
+        <div class="footer-top__box">
+          <a id="ajuda" href="/HTML/Ajuda.html">Ajuda e Suporte</a>
+			    <p>Devoluções</p>
+			    <p>Preço de Envio</p>
+			    <p>Como Pedir</p>
+			    <p>Como rastrear</p>
+        </div>
+
+        <!--TIPO DE PAGAMENTOS --->
+        <div class="footer-top__box">
+          <h3>Aceitamos:</h3>
+          <img src="/images/mbway.png" alt="mbway" width="20px">
+          <img src="/images/paypal.svg" alt="PayPal" width="20px">
+          <img src="/images/credit.svg" alt="Cartão Crédito" width="25px">
+
+		   
+			  <!--PARA SUBSCREVER AS NEWSLETTER --->
+		    <div class="footer-top__box"></div>
+          <p id="newsletter">Registe o seu email para receber as nossas novidades e promoções epeciais:</p>
+          <div>
+         	  <input type="email" placeholder="Coloque aqui o seu email">
+			      <a href="#" id="button">SUBSCREVER</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+		  
+    <div class="footer__bottom">
+      <div class="footer-bottom__box">
+      </div>
+      <div class="footer-bottom__box">
+      </div>
+    </div>
+
+  </footer>
+  <!-- FIM Footer -->
+	
+	
+	<!--ATALHO PARA CIMA-->
+	<a href="#header" class="goto-top scroll-link">
+    <i class="fas fa-chevron-up"></i>
+  </a>
+	<!--fim atalho cima-->
+	
+	<!--POP UP DE CONFIRMAÇÃO -->
+ 
+<div class="PopUpSub">
+  <div class="PopUpSubContent">
+    <i class="far fa-times-circle closesub"></i>
+    <h2> <i class="fas fa-hand-peace"></i>Agradecemos pela sua subscrição</h2>
+  </div>
+</div>
+	
+	
+	
+	
+<!--JAVASCRIPT-->
+  <script src="/JAVASCRIPT/home.js"></script>
+  <script src="/JAVASCRIPT/carrinho.js"></script>
+
