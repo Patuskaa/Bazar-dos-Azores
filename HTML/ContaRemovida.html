@@ -14,8 +14,8 @@
 
   	
   	<!-- CSS -->
-  	<link rel="stylesheet" href="/CSS/Home.css" />
-    <link rel="stylesheet" href="/CSS/Carrinho.css"/>
+  	<link rel="stylesheet" href="../CSS/Home.css" />
+    <link rel="stylesheet" href="../CSS/Carrinho.css"/>
 
   	<title>Bazar dos Açores</title>
 
@@ -86,7 +86,7 @@
             
             <div class="nav__icons">
               <div class="login">
-                <a href="Registo.html">
+                <a href="/HTML/Registo.html">
                   <i class="fas fa-user-plus"></i>
                   login
                 </a>
@@ -101,7 +101,96 @@
         </nav>
       </div>
     </div>
-	<!-- FIM MENU -->  
+	<!-- FIM MENU --> 
+	 
+
+    
+<!--CARRINHO DE COMPRAS-->
+<div class="cartBox">
+
+
+  <div class="carrobox">
+  <i class="fas fa-window-close fecharcarro"></i>
+
+    <div class="cart">
+      <h1>Carrinho de Compras</h1>
+      <table class="tablecart"></table>
+     
+      <p class="Subtotalcarrinho">Subtotal: <span class="subtotal"></span></p>
+      <p class="Envio">Envio: <span class="envio1"></span></p>
+      <p class="TotalCarrinho">Total <span class="totalCarro"></span></p>
+    </div>
+
+    <div class="forcompra">
+     <h1>Detalhe de Envio</h1>
+      
+      <div class="formCompra">
+      <label>Nome Completo*</label><small>Error</small>
+      <input class="nomecompleto" id="nomecompleto" type="text" placeholder="Coloque aqui o seu nome">
+      </div>
+
+      <div class="formCompra">
+      <label>Morada*</label><small>Error</small>
+      <input class="morada" id="morada1" type="text" placeholder="Coloque aqui a sua morada completa">
+      </div>
+
+      <div class="formCompra">
+      <label>Localidade*</label><small>Error</small><br>
+      <input class="loca1" id="loca1" type="number" placeholder="3000">-
+      <input class="loca1" id="loca2" type="number" placeholder="158">
+      <input class="loca3" id="loca3" type="text" placeholder="localidade">
+      </div>
+
+      <div class="formCompra">
+      <label>Contribuinte*</label><small>Error</small>
+      <input class="nif" id="contribuinte" type="number" placeholder="Colque aqui o seu número de contribuinte">
+      </div>
+
+      
+      <div class="formCompra">
+      <label>Telefone*</label><small>Error</small>
+      <input class="tel" id="tel" type="tel" placeholder="coloque aqui o seu contacto">
+      </div>
+
+      <div class="formCompra">
+      <label>Email*</label><small>Error</small>
+      <input class="mail" id="mailCompra" type="email" placeholder="Coloque aqui o seu email">
+      </div>
+      
+
+      <h1>Método de Pagamento</h1>
+
+      <div class="formCompra">
+      <label>Nome no Cartão Crédito*</label ><small>Error</small>
+      <input class="nc" id="nc" type="text" placeholder="Coloque aqui em que nome está no cartão">
+      </div>
+
+      <div class="formCompra">
+      <label>Número do Cartão Crédito*</label><small>Error</small>
+      <input class="noc" id="noc" type="number" placeholder="000350456789">
+      </div>
+
+      <div class="cartaodav">
+      <div class="formCompra">
+      <label>Data de validade*</label><small>Error</small> <br>
+      <input class="dv" id="dv" type="month" min="2021-06">
+      </div>
+
+      <div class="formCompra">
+      <label>CVV*</label><small>Error</small> <br>
+      <input class="cvv" id="cvv" type="number" placeholder="456">
+      </div>
+      </div>
+
+      <label>PAGAR POR:</label><br>
+      <button onclick="compraMbWay()" id="pgmbway"><img src="/images/mbway.svg" width="20px"></button>
+      <button onclick="compraCC()" id="pgCC">PAGAR AGORA</button>
+      <button onclick="compraPayPal()" id="pgPayPal"><img src="/images/paypal.svg" width="20px"></button>
+      
+  </div>
+</div>
+</div>
+<!--FIM CARRINHO DE COMPRAS-->
 	 
 	 
     <!-- CAROUSSEL -->
@@ -131,49 +220,49 @@
       <div class="section__titles category__titles ">
         <div class="section__title filter-btn " data-id="Terceira">
           <span class="dot"></span>
-          <a href="Index.html"><h1 class= "primary__title active">Terceira</h1></a>
+          <a href="/HTML/Index.html"><h1 class= "primary__title active">Terceira</h1></a>
         </div>
       </div>
     <!--GRACIOSA-->
       <div class="section__titles">
         <div class="section__title filter-btn" data-id="Graciosa">
           <span class="dot"></span>
-          <a href="Graciosa.html"><h1 class= "primary__title">Graciosa</h1></a>
+          <a href="/HTML/Graciosa.html"><h1 class= "primary__title">Graciosa</h1></a>
         </div>
       </div>
     <!--SAO JORGE-->
       <div class="section__titles">
         <div class="section__title filter-btn" data-id="SaoJorge">
           <span class="dot"></span>
-          <a href="SaoJorge.html"><h1 class= "primary__title">São Jorge</h1></a>
+          <a href="/HTML/SaoJorge.html"><h1 class= "primary__title">São Jorge</h1></a>
         </div>
       </div>
     <!--PICO-->  
       <div class="section__titles">
         <div class="section__title filter-btn" data-id="Pico">
           <span class="dot"></span>
-          <a href="Pico.html"><h1 class= "primary__title">Pico</h1></a>
+          <a href="/HTML/Pico.html"><h1 class= "primary__title">Pico</h1></a>
         </div>
       </div>
     <!--FAIAL-->
       <div class="section__titles">
         <div class="section__title filter-btn" data-id="Faial">
           <span class="dot"></span>
-          <a href="Faial.html"><h1 class= "primary__title">Faial</h1></a>
+          <a href="/HTML/Faial.html"><h1 class= "primary__title">Faial</h1></a>
         </div>
       </div>
     <!--GRUPO ORIENTAL-->
       <div class="section__titles">
         <div class="section__title filter-btn" data-id="Oriental">
             <span class="dot"></span>
-            <a href="GrupoOriente.html"><h1 class= "primary__title">Grupo Oriental</h1></a>
+            <a href="/HTML/GrupoOriente.html"><h1 class= "primary__title">Grupo Oriental</h1></a>
           </div>
         </div>
     <!--GRUPO OCIDENTAL-->
       <div class="section__titles">
         <div class="section__title filter-btn" data-id="Ocidental">
             <span class="dot"></span>
-            <a href="GrupoOcidental.html"><h1 class= "primary__title">Grupo Ocidental</h1></a>
+            <a href="/HTML/GrupoOcidental.html"><h1 class= "primary__title">Grupo Ocidental</h1></a>
           </div>
         </div>
       <!--FECHA CONTAINER-->
@@ -846,7 +935,7 @@
  
 <div class="PopUpDanger">
   <div class="PopUpDangerContent">
-    <i class="far fa-times-circle closesub"></i>
+    <a href="/HTML/Registo.html"><i class="far fa-times-circle closesub"></i></a>
     <h2><i class="fas fa-exclamation-triangle"></i>Pedimos desculpa, mas registamos uma atividade suspeita na sua conta, pelo que removemos o seu registo. </h2>
   </div>
 </div>
