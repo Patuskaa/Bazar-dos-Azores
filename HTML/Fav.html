@@ -14,10 +14,10 @@
 
   	
   	<!-- CSS -->
-  	<link rel="stylesheet" href="/CSS/Home.css" />
-    <link rel ="stylesheet" href ="/CSS/servico.css"/>
-    <link rel="stylesheet" href="/CSS/Carrinho.css"/>
-    <link rel="stylesheet" href="/CSS/Fav.css"/>
+  	<link rel="stylesheet" href="../CSS/Home.css" />
+    <link rel ="stylesheet" href ="../CSS/servico.css"/>
+    <link rel="stylesheet" href="../CSS/Carrinho.css"/>
+    <link rel="stylesheet" href="../CSS/Fav.css"/>
 
   	<title>Página de Perfil</title>
 
@@ -48,7 +48,7 @@
             <!-- LOGO NA BARRA-->
             <div class="nav__logo">
                 <a href="/" class="scroll-link">
-                    <img src="/images/logo_svg.svg" alt="logo" width="125px">
+                    <img src="../images/logo_svg.svg" alt="logo" width="125px">
                 </a>
             </div>
 
@@ -57,7 +57,7 @@
                 <div class="menu__top">
                 
                     <!-- LOGO NA BARRA LATERAL-->
-                    <span class="nav__category"><img src="/images/logo_svg.svg" alt="logo" width="125px"></span>
+                    <span class="nav__category"><img src="../images/logo_svg.svg" alt="logo" width="125px"></span>
               
                     <!-- ICON PARA ENCERRAR A BARRA LATERAL-->
                     <a href="#" class="close__toggle closemenu">
@@ -68,17 +68,17 @@
                 <ul class="nav__list">
                     <!-- ICON DE INICIO-->
                     <li class="nav__item">
-                        <a href="/HTML/Index.html">
+                        <a href="../HTML/Index.html">
                             <i class="fas fa-home"></i>  Inicio</a>
                     </li>
                     <!-- ICON DE SERVIÇO-->
                     <li class="nav__item">
-                        <a href="/HTML/Serviço.html">
+                        <a href="../HTML/Serviço.html">
                             <i class="fas fa-gift"></i>   Serviços</a>
                     </li>
                     <!-- ICON DE PERFIL-->
                     <li class="nav__item">
-                        <a href="/HTML/Perfil.html">
+                        <a href="../HTML/Perfil.html">
                             <i class="fas fa-user"></i>Perfil</a>
                     </li>
                 </ul>
@@ -88,7 +88,7 @@
             
             <div class="nav__icons">
               <div class="login">
-                <a href="/HTML/Registo.html">
+                <a href="../HTML/Registo.html">
                   <i class="fas fa-user-plus"></i>
                   login
                 </a>
@@ -183,9 +183,9 @@
         </div>
 
         <label>PAGAR POR:</label><br>
-        <button onclick="compraMbWay()" id="pgmbway"><img src="/images/mbway.png" width="40px"></button>
+        <button onclick="compraMbWay()" id="pgmbway"><img src="../images/mbway.png" width="40px"></button>
         <button onclick="compraCC()" id="pgCC">PAGAR AGORA</button>
-        <button onclick="compraPayPal()" id="pgPayPal"><img src="/images/paypal.svg" width="40px"></button>
+        <button onclick="compraPayPal()" id="pgPayPal"><img src="../images/paypal.svg" width="40px"></button>
         
     </div>
   </div>
@@ -201,7 +201,7 @@
 
             <div class="profile-header">
                 <div class="profile-img">
-                    <img id="profile-img-img" src="/images/profile.jpg" width="150px" alt="imagem de perfil">
+                    <img id="profile-img-img" src="../images/profile.jpg" width="150px" alt="imagem de perfil">
                     <label id="fileButton" for="file" style="cursor:pointer"><i class="fas fa-camera"></i>  Alterar Foto</label>
             <input type="file" accept="image/*" name="image" id="file" onchange="loadFile(event)" style="display:none">
                   </div>
@@ -233,8 +233,8 @@
     <div class="right-side">
         <div class="navprofile">
           <ul>
-            <li><a href="/HTML/Perfil.html" class="user-data">Os meus dados</a></li>
-            <li><a href="/HTML/Fav.html" class="user-data active">Os meus favoritos</a></li>
+            <li><a href="../HTML/Perfil.html" class="user-data">Os meus dados</a></li>
+            <li><a href="../HTML/Fav.html" class="user-data active">Os meus favoritos</a></li>
           </ul>
         </div>
 
@@ -259,6 +259,6 @@
 </div>
 
  <!--JAVASCRIPT-->
- <script src="/JAVASCRIPT/home.js"></script>
- <script src="/JAVASCRIPT/carrinho.js"></script>
- <script src="/JAVASCRIPT/fav.js"></script>
+ <script src="../JAVASCRIPT/home.js"></script>
+ <script src="../JAVASCRIPT/carrinho.js"></script>
+ <script src="../JAVASCRIPT/fav.js"></script>
